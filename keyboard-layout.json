@@ -1,0 +1,65 @@
+[
+  {
+    "css": ".keyborder[style*=\"#ff0000\"] {\n    border-radius: 50% !important;\n    background-color: #ccc !important;\n}\n.keytop[style*=\"#ff4223\"] {\n    border-radius: 50% !important;\n    background-color: #fff !important;\n}"
+  },
+  [
+    {
+      "p": "R1",
+      "a": 7
+    },
+    "<i class='kb kb-Multimedia-Rewind-Start'></i>\n\n\n\n1U",
+    "<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n1U",
+    "<i class='kb kb-Multimedia-FastForward-End'></i>\n\n\n\n1U",
+    {
+      "c": "#ff0000",
+      "p": "CHICKLET"
+    },
+    "<i class='kb kb-Multimedia-Volume-Up-2'></i>"
+  ],
+  [
+    {
+      "y": 0.25,
+      "c": "#cccccc",
+      "p": "R1"
+    },
+    "<i class='kb kb-Unicode-Lock-Closed-2'></i>\n\n\n\n1U",
+    "/\n\n\n\n1U",
+    "*\n\n\n\n1U",
+    "-\n\n\n\n1U"
+  ],
+  [
+    {
+      "p": "R2"
+    },
+    "7\n\n\n\n1U",
+    "8\n\n\n\n1U",
+    "9\n\n\n\n1U",
+    "+\n\n\n\n1U"
+  ],
+  [
+    {
+      "p": "R3"
+    },
+    "4\n\n\n\n1U",
+    "5\n\n\n\n1U",
+    "6\n\n\n\n1U",
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>\n\n\n\n1U"
+  ],
+  [
+    {
+      "p": "R4"
+    },
+    "1\n\n\n\n1U",
+    "2\n\n\n\n1U",
+    "3\n\n\n\n1U",
+    {
+      "h": 2
+    },
+    "<i class='kb kb-Return-2'></i>\n\n\n\n2U"
+  ],
+  [
+    "0\n\n\n\n1U",
+    "00\n\n\n\n1U",
+    ".\n\n\n\n1U"
+  ]
+]

@@ -1,0 +1,3 @@
+[submodule "pcb-v2/libraries/kbd"]
+	path = pcb/libraries/kbd
+	url = https://github.com/foostan/kbd.git
