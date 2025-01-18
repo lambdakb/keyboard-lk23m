@@ -844,6 +844,502 @@
 				)
 			)
 		)
+		(symbol "LKBD_MCU:ProMicro_RP2040"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ProMicro_RP2040"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -26.67 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -26.67 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ProMicro_RP2040_0_1"
+				(rectangle
+					(start -12.7 16.51)
+					(end 12.7 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ProMicro_RP2040_1_1"
+				(pin bidirectional line
+					(at -17.78 13.97 0)
+					(length 5.08)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -8.89 0)
+					(length 5.08)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -11.43 0)
+					(length 5.08)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -13.97 0)
+					(length 5.08)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
+					(length 5.08)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -11.43 180)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -6.35 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 11.43 0)
+					(length 5.08)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 13.97 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 3.81 0)
+					(length 5.08)
+					(name "D2/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "D3/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -3.81 0)
+					(length 5.08)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -1504,502 +2000,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "kbd:ProMicro"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ProMicro"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -26.67 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -26.67 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ProMicro_0_1"
-				(rectangle
-					(start -12.7 16.51)
-					(end 12.7 -16.51)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ProMicro_1_1"
-				(pin bidirectional line
-					(at -17.78 13.97 0)
-					(length 5.08)
-					(name "TX0/D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -8.89 0)
-					(length 5.08)
-					(name "7/E6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -11.43 0)
-					(length 5.08)
-					(name "8/B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -13.97 0)
-					(length 5.08)
-					(name "9/B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -13.97 180)
-					(length 5.08)
-					(name "B6/10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -11.43 180)
-					(length 5.08)
-					(name "B2/16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -8.89 180)
-					(length 5.08)
-					(name "B3/14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -6.35 180)
-					(length 5.08)
-					(name "B1/15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -3.81 180)
-					(length 5.08)
-					(name "F7/A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -1.27 180)
-					(length 5.08)
-					(name "F6/A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 1.27 180)
-					(length 5.08)
-					(name "F5/A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 11.43 0)
-					(length 5.08)
-					(name "RX1/D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 3.81 180)
-					(length 5.08)
-					(name "F4/A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 6.35 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 8.89 180)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 11.43 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 13.97 180)
-					(length 5.08)
-					(name "RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 8.89 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "2/D1/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 1.27 0)
-					(length 5.08)
-					(name "3/D0/SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -1.27 0)
-					(length 5.08)
-					(name "4/D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "5/C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -6.35 0)
-					(length 5.08)
-					(name "6/D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4774,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 158.75 100.33 0)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 171.45 83.82 0)
 			(effects
 				(font
@@ -4998,7 +4998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 151.13 40.64 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 176.53 92.71 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 163.83 92.71 0)
 			(effects
 				(font
@@ -5258,7 +5258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -5327,7 +5327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -5503,7 +5503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 163.83 40.64 0)
 			(effects
 				(font
@@ -5590,7 +5590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -5677,7 +5677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -5762,7 +5762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 158.75 50.8 0)
 			(effects
 				(font
@@ -5829,7 +5829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_THT_sqSilk"
 			(at 158.75 31.75 0)
 			(effects
 				(font
@@ -5897,7 +5897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_THT_sqSilk"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 171.45 67.31 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 189.23 76.2 0)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -6504,7 +6504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "keyboard:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
+		(property "Footprint" "LKBD_Common:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6637,7 +6637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 158.75 83.82 0)
 			(effects
 				(font
@@ -6704,7 +6704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 184.15 83.82 0)
 			(effects
 				(font
@@ -6774,7 +6774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 163.83 125.73 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -7014,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -7084,7 +7084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 189.23 40.64 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -7324,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -7391,7 +7391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 158.75 116.84 0)
 			(effects
 				(font
@@ -7592,7 +7592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "keyboard:OLED_SSD1306_128x32_0.91inch_I2C_btmSilk"
+		(property "Footprint" "LKBD_OLED:OLED_SSD1306_128x32_0.91inch_I2C_btmSilk"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -7754,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_2U_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_2U_HotSwap_THT_sqSilk"
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -7890,7 +7890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "keyboard:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
+		(property "Footprint" "LKBD_Common:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
 			(at 97.79 101.6 0)
 			(effects
 				(font
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 171.45 100.33 0)
 			(effects
 				(font
@@ -8025,7 +8025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 146.05 83.82 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_EC11_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_EC11_THT_sqSilk"
 			(at 88.9 132.334 0)
 			(effects
 				(font
@@ -8172,7 +8172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -8240,7 +8240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 146.05 116.84 0)
 			(effects
 				(font
@@ -8308,7 +8308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -8446,7 +8446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -8665,7 +8665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -8753,7 +8753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -8839,7 +8839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 184.15 67.31 0)
 			(effects
 				(font
@@ -8909,7 +8909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "keyboard:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
+		(property "Footprint" "LKBD_Common:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
 			(at 97.79 130.81 0)
 			(effects
 				(font
@@ -9045,7 +9045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 163.83 76.2 0)
 			(effects
 				(font
@@ -9130,7 +9130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -9173,24 +9173,15 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:ProMicro")
+		(lib_id "LKBD_MCU:ProMicro_RP2040")
 		(at 66.04 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7684a50-0fb7-4d0d-953e-93c3268958a9")
 		(property "Reference" "U1"
-			(at 66.04 19.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ProMicro"
 			(at 66.04 21.59 0)
 			(effects
 				(font
@@ -9198,7 +9189,15 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:MCU_KB2040_DIP-24_Socket_Reverse"
+		(property "Value" "ProMicro_RP2040"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LKBD_MCU:MCU_KB2040_DIP-24_Socket_Reverse"
 			(at 68.58 67.31 0)
 			(effects
 				(font
@@ -9399,7 +9398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -9551,7 +9550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_HotSwap_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_HotSwap_THT_sqSilk"
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -9618,7 +9617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:SW_MX_EC11_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_EC11_THT_sqSilk"
 			(at 88.9 103.124 0)
 			(effects
 				(font
@@ -9699,7 +9698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "keyboard:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -9787,7 +9786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "keyboard:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
+		(property "Footprint" "LKBD_Common:Capacitor_SMD+THT_1206_5.0x2.5mm_P5.00mm"
 			(at 97.79 96.52 0)
 			(effects
 				(font
