@@ -375,4 +375,15 @@
 		(remove_unused_layers no)
 		(uuid "62ab0609-10fa-4ffd-b988-a77ec969f3ac")
 	)
+	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/kiswitch/SW_Cherry_MX_PCB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

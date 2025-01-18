@@ -129,6 +129,7 @@
 		(property "Reference" "H1"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "df5faa2d-9f80-40c6-8fda-aa3f89dcc542")
 			(effects
 				(font
@@ -199,6 +200,7 @@
 		(property "Reference" "H2"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6f372159-d0c8-4a7e-83fd-0a39cde0ad93")
 			(effects
 				(font
@@ -269,6 +271,7 @@
 		(property "Reference" "H4"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "37e397d9-baa4-40c0-acad-9a7922b1144f")
 			(effects
 				(font
@@ -339,6 +342,7 @@
 		(property "Reference" "H3"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6093bc6f-a4b0-492c-ae10-c1b0d635dc39")
 			(effects
 				(font
@@ -409,6 +413,7 @@
 		(property "Reference" "H5"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6c10c332-667c-4a0d-ae13-bbc64d1de775")
 			(effects
 				(font
@@ -484,6 +489,7 @@
 		(property "Reference" "H8"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "2903eed9-9c02-4c76-b047-d76d8eb06f7a")
 			(effects
 				(font
@@ -559,6 +565,7 @@
 		(property "Reference" "H7"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "899fa3d1-3114-46b0-8cc9-21c587402c92")
 			(effects
 				(font
@@ -634,6 +641,7 @@
 		(property "Reference" "H6"
 			(at 0 0 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "cb58755b-cff0-4add-b38c-cd24c9172cf6")
 			(effects
 				(font
@@ -724,6 +732,91 @@
 		(layer "F.SilkS")
 		(uuid "087b019a-dd3f-4b57-80c0-97dd4847d698")
 	)
+	(gr_line
+		(start 29.075 145.637)
+		(end 29.075 30.575)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41fbcf51-1c80-4f42-89bb-a4cf43049065")
+	)
+	(gr_arc
+		(start 30.575 147.137)
+		(mid 29.51434 146.69766)
+		(end 29.075 145.637)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f0f82d3-ea97-4932-a95f-d34b5c31881e")
+	)
+	(gr_arc
+		(start 102.775 29.075)
+		(mid 103.83566 29.51434)
+		(end 104.275 30.575)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "546c8f75-cbd2-4cfb-87e0-65c9f57b37e1")
+	)
+	(gr_rect
+		(start 29.075 48.005773)
+		(end 45.475 52.006727)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5ff58af0-570a-4e83-98b3-3f91c925265d")
+	)
+	(gr_poly
+		(pts
+			(xy 33.07492 52.005693) (xy 29.075 52.005693) (xy 29.075 48.005773) (xy 33.07492 48.005773)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6b1894ba-f61b-4fa7-8879-ffbb52e1e824")
+	)
+	(gr_line
+		(start 30.575 29.075)
+		(end 102.775 29.075)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8fe9b799-3ec4-4d51-ae46-d755dcd3ae6b")
+	)
+	(gr_line
+		(start 104.275 30.575)
+		(end 104.275 145.637)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3fde310-e8d5-44ae-9191-f56095e30d24")
+	)
+	(gr_line
+		(start 102.775 147.137)
+		(end 30.575 147.137)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9640431-c040-41b2-a5e8-ebd3ac7e63cd")
+	)
 	(gr_poly
 		(pts
 			(xy 102.092761 30.500753) (xy 103.789821 29.48221) (xy 103.801181 29.492957) (xy 103.812228 29.503782)
@@ -735,7 +828,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "095ee5ad-d199-422f-a04e-19ea3302ed04")
 	)
 	(gr_poly
@@ -749,7 +842,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "096904fe-7ffb-4a06-aea5-3d121b344e8c")
 	)
 	(gr_poly
@@ -1730,40 +1823,8 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "1ca0863a-ff6b-4e82-872f-a72060f65f9d")
-	)
-	(gr_line
-		(start 29.075 145.637)
-		(end 29.075 30.575)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "41fbcf51-1c80-4f42-89bb-a4cf43049065")
-	)
-	(gr_arc
-		(start 30.575 147.137)
-		(mid 29.51434 146.69766)
-		(end 29.075 145.637)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "4f0f82d3-ea97-4932-a95f-d34b5c31881e")
-	)
-	(gr_arc
-		(start 102.775 29.075)
-		(mid 103.83566 29.51434)
-		(end 104.275 30.575)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "546c8f75-cbd2-4cfb-87e0-65c9f57b37e1")
 	)
 	(gr_poly
 		(pts
@@ -1775,115 +1836,8 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "594c4cc1-6bd9-46a6-9599-81845e43350a")
-	)
-	(gr_rect
-		(start 29.075 48.005773)
-		(end 45.475 52.006727)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "5ff58af0-570a-4e83-98b3-3f91c925265d")
-	)
-	(gr_poly
-		(pts
-			(xy 33.07492 52.005693) (xy 29.075 52.005693) (xy 29.075 48.005773) (xy 33.07492 48.005773)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "6b1894ba-f61b-4fa7-8879-ffbb52e1e824")
-	)
-	(gr_line
-		(start 30.575 29.075)
-		(end 102.775 29.075)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8fe9b799-3ec4-4d51-ae46-d755dcd3ae6b")
-	)
-	(gr_poly
-		(pts
-			(xy 84.322791 30.463546) (xy 84.322791 29.075) (xy 84.444228 29.075) (xy 84.444228 30.463546) (xy 86.759853 29.075)
-			(xy 86.996528 29.075) (xy 84.383769 30.641313) (xy 81.771007 29.075) (xy 82.007171 29.075)
-		)
-		(stroke
-			(width -0.000001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "a5316662-347a-43d5-af4e-af369ec54b3f")
-	)
-	(gr_poly
-		(pts
-			(xy 104.167415 146.152545) (xy 104.158045 146.176787) (xy 104.148253 146.200623) (xy 104.138045 146.224144)
-			(xy 104.127425 146.247444) (xy 104.1164 146.270616) (xy 104.104976 146.293751) (xy 104.093158 146.316943)
-			(xy 102.725284 147.137042) (xy 102.493778 147.137042) (xy 104.176357 146.127803)
-		)
-		(stroke
-			(width -0.000001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "b4c6dd45-5f76-4cf0-a4ee-9365d40d7cb8")
-	)
-	(gr_poly
-		(pts
-			(xy 30.858354 147.137042) (xy 30.626326 147.137042) (xy 29.254834 146.314868) (xy 29.243134 146.291709)
-			(xy 29.231898 146.268577) (xy 29.221106 146.24539) (xy 29.210741 146.222065) (xy 29.200785 146.19852)
-			(xy 29.191219 146.174673) (xy 29.182025 146.150442) (xy 29.173185 146.125743)
-		)
-		(stroke
-			(width -0.000001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "dc096396-2dde-4c48-9d32-ea95505d4b6c")
-	)
-	(gr_line
-		(start 104.275 30.575)
-		(end 104.275 145.637)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e3fde310-e8d5-44ae-9191-f56095e30d24")
-	)
-	(gr_line
-		(start 102.775 147.137)
-		(end 30.575 147.137)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e9640431-c040-41b2-a5e8-ebd3ac7e63cd")
-	)
-	(gr_poly
-		(pts
-			(xy 48.906863 30.465613) (xy 48.906863 29.075) (xy 49.026237 29.075) (xy 49.026237 30.463546) (xy 51.343408 29.075)
-			(xy 51.576469 29.075) (xy 48.965776 30.641313) (xy 46.356116 29.075) (xy 46.589175 29.075)
-		)
-		(stroke
-			(width -0.000001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "edc02e36-b476-4b52-bfa5-9695fdf19e4c")
 	)
 	(gr_poly
 		(pts
@@ -1944,6 +1898,60 @@
 		(layer "F.Mask")
 		(uuid "768bc75a-4827-438a-aba1-c055f5a9c4bc")
 	)
+	(gr_poly
+		(pts
+			(xy 84.322791 30.463546) (xy 84.322791 29.075) (xy 84.444228 29.075) (xy 84.444228 30.463546) (xy 86.759853 29.075)
+			(xy 86.996528 29.075) (xy 84.383769 30.641313) (xy 81.771007 29.075) (xy 82.007171 29.075)
+		)
+		(stroke
+			(width -0.000001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "a5316662-347a-43d5-af4e-af369ec54b3f")
+	)
+	(gr_poly
+		(pts
+			(xy 104.167415 146.152545) (xy 104.158045 146.176787) (xy 104.148253 146.200623) (xy 104.138045 146.224144)
+			(xy 104.127425 146.247444) (xy 104.1164 146.270616) (xy 104.104976 146.293751) (xy 104.093158 146.316943)
+			(xy 102.725284 147.137042) (xy 102.493778 147.137042) (xy 104.176357 146.127803)
+		)
+		(stroke
+			(width -0.000001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "b4c6dd45-5f76-4cf0-a4ee-9365d40d7cb8")
+	)
+	(gr_poly
+		(pts
+			(xy 30.858354 147.137042) (xy 30.626326 147.137042) (xy 29.254834 146.314868) (xy 29.243134 146.291709)
+			(xy 29.231898 146.268577) (xy 29.221106 146.24539) (xy 29.210741 146.222065) (xy 29.200785 146.19852)
+			(xy 29.191219 146.174673) (xy 29.182025 146.150442) (xy 29.173185 146.125743)
+		)
+		(stroke
+			(width -0.000001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "dc096396-2dde-4c48-9d32-ea95505d4b6c")
+	)
+	(gr_poly
+		(pts
+			(xy 48.906863 30.465613) (xy 48.906863 29.075) (xy 49.026237 29.075) (xy 49.026237 30.463546) (xy 51.343408 29.075)
+			(xy 51.576469 29.075) (xy 48.965776 30.641313) (xy 46.356116 29.075) (xy 46.589175 29.075)
+		)
+		(stroke
+			(width -0.000001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "edc02e36-b476-4b52-bfa5-9695fdf19e4c")
+	)
 	(gr_rect
 		(start 29.075 29.075)
 		(end 104.275 147.137)
@@ -1981,7 +1989,7 @@
 		(mid 69.346447 74.108947)
 		(end 69.7 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -1992,7 +2000,7 @@
 		(mid 31.246447 31.246447)
 		(end 31.6 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2003,7 +2011,7 @@
 		(mid 88.396447 55.058947)
 		(end 88.75 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2014,7 +2022,7 @@
 		(mid 86.396447 137.171947)
 		(end 86.75 137.0255)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2024,7 +2032,7 @@
 		(start 88.75 45.1)
 		(end 101.75 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2035,7 +2043,7 @@
 		(mid 102.103553 74.108947)
 		(end 102.25 74.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2045,17 +2053,17 @@
 		(start 88.75 93.0125)
 		(end 101.75 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "07f0b76e-43d9-4af1-8897-636070915929")
 	)
 	(gr_line
-		(start 88.25 113.15)
+		(start 87.95 113.1495)
 		(end 86.75 113.1495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2066,7 +2074,7 @@
 		(mid 50.296447 125.916053)
 		(end 50.15 125.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2076,7 +2084,7 @@
 		(start 86.25 137.5255)
 		(end 86.25 143.5255)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2086,18 +2094,28 @@
 		(start 83.2 112.5625)
 		(end 83.2 125.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "0a46549c-1e3c-437e-b3c1-183967ef77d1")
+	)
+	(gr_line
+		(start 45.1 112.5625)
+		(end 45.1 112.8495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0a5d5926-33f7-4002-9a4b-a833c2014a67")
 	)
 	(gr_arc
 		(start 101.75 93.0125)
 		(mid 102.103553 93.158947)
 		(end 102.25 93.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2108,7 +2126,7 @@
 		(mid 69.346447 106.866053)
 		(end 69.2 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2118,7 +2136,7 @@
 		(start 50.15 55.4125)
 		(end 50.15 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2129,7 +2147,7 @@
 		(mid 69.346447 125.916053)
 		(end 69.2 125.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2139,7 +2157,7 @@
 		(start 31.6 68.9125)
 		(end 44.6 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2149,7 +2167,7 @@
 		(start 102.25 74.4625)
 		(end 102.25 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2159,28 +2177,49 @@
 		(start 69.7 54.9125)
 		(end 82.7 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "100fc3c4-32ab-447c-9106-3654691c75ac")
 	)
 	(gr_line
-		(start 45.1 112.5625)
-		(end 45.1 113.15)
+		(start 47.1 113.6495)
+		(end 47.1 119.6495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1553aba1-8dae-49bf-a10f-01f641814d17")
+		(uuid "1440589d-16b2-463a-adb1-cf18da2cb588")
+	)
+	(gr_arc
+		(start 45.1 120.4495)
+		(mid 45.187868 120.237368)
+		(end 45.4 120.1495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "161d5983-c811-41ee-8722-cc6a087c1086")
+	)
+	(gr_line
+		(start 87.95 144.0255)
+		(end 86.75 144.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "167752b2-a31b-41ea-b276-d0d7a2e59fd3")
 	)
 	(gr_arc
 		(start 86.75 144.0255)
 		(mid 86.396447 143.879053)
 		(end 86.25 143.5255)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2191,7 +2230,7 @@
 		(mid 83.053553 93.158947)
 		(end 83.2 93.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2202,7 +2241,7 @@
 		(mid 88.396447 74.108947)
 		(end 88.75 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2213,7 +2252,7 @@
 		(mid 64.003553 112.208947)
 		(end 64.15 112.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2224,7 +2263,7 @@
 		(mid 50.296447 44.953553)
 		(end 50.15 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2234,7 +2273,7 @@
 		(start 88.25 74.4625)
 		(end 88.25 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2245,7 +2284,7 @@
 		(mid 31.246447 144.966053)
 		(end 31.1 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2255,7 +2294,7 @@
 		(start 64.15 131.6125)
 		(end 64.15 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2266,7 +2305,7 @@
 		(mid 50.296447 112.208947)
 		(end 50.65 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2276,7 +2315,7 @@
 		(start 44.6 145.1125)
 		(end 31.6 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2286,7 +2325,7 @@
 		(start 83.2 74.4625)
 		(end 83.2 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2296,7 +2335,7 @@
 		(start 50.65 45.1)
 		(end 63.65 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2306,7 +2345,7 @@
 		(start 44.6 112.0625)
 		(end 31.6 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2317,7 +2356,7 @@
 		(mid 31.246447 55.058947)
 		(end 31.6 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2327,7 +2366,7 @@
 		(start 50.65 93.0125)
 		(end 63.65 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2337,18 +2376,29 @@
 		(start 31.1 31.6)
 		(end 31.1 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "31f2a409-33fe-4e25-b5b1-5e07a7fc9367")
 	)
 	(gr_arc
+		(start 88.25 136.7255)
+		(mid 88.162132 136.937632)
+		(end 87.95 137.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "32120850-db90-46e8-9275-06093ece3062")
+	)
+	(gr_arc
 		(start 64.15 44.6)
 		(mid 64.003553 44.953553)
 		(end 63.65 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2358,7 +2408,7 @@
 		(start 102.775 147.6375)
 		(end 30.575 147.6375)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2369,7 +2419,7 @@
 		(mid 44.953553 93.158947)
 		(end 45.1 93.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2379,7 +2429,7 @@
 		(start 31.1 93.5125)
 		(end 31.1 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2389,7 +2439,7 @@
 		(start 31.6 107.0125)
 		(end 44.6 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2400,7 +2450,7 @@
 		(mid 31.246447 112.208947)
 		(end 31.6 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2410,7 +2460,7 @@
 		(start 50.65 112.0625)
 		(end 63.65 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2420,7 +2470,7 @@
 		(start 50.15 112.5625)
 		(end 50.15 125.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2430,7 +2480,7 @@
 		(start 88.75 112.0625)
 		(end 101.75 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2441,7 +2491,7 @@
 		(mid 64.003553 93.158947)
 		(end 64.15 93.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2451,27 +2501,38 @@
 		(start 50.65 31.1)
 		(end 63.65 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "4035c2c1-e119-4ba7-8a69-ea275ede2ad0")
 	)
+	(gr_arc
+		(start 88.25 112.8495)
+		(mid 88.162132 113.061632)
+		(end 87.95 113.1495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "40883586-8b1a-4c48-8628-9d30c02df0fa")
+	)
 	(gr_line
 		(start 88.75 145.1125)
 		(end 101.75 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "413288c7-8d5b-4d88-94df-206d863182a2")
 	)
 	(gr_line
-		(start 88.25 120.15)
-		(end 88.25 137.025)
+		(start 88.25 120.4495)
+		(end 88.25 136.7255)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2482,7 +2543,7 @@
 		(mid 69.346447 87.816053)
 		(end 69.2 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2493,7 +2554,7 @@
 		(mid 86.396447 120.003053)
 		(end 86.25 119.6495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2503,7 +2564,7 @@
 		(start 102.25 55.4125)
 		(end 102.25 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2514,49 +2575,29 @@
 		(mid 69.346447 44.953553)
 		(end 69.2 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "47c14056-4a94-4231-8934-9639f18e22bd")
-	)
-	(gr_line
-		(start 47.1 113.6495)
-		(end 47.1 119.6495)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "488d9d31-f7cb-447c-ae52-b3eb520018a0")
 	)
 	(gr_arc
 		(start 63.65 54.9125)
 		(mid 64.003553 55.058947)
 		(end 64.15 55.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "4b0fcfee-9a7d-4089-8abc-a12175f268a5")
-	)
-	(gr_line
-		(start 88.25 120.15)
-		(end 86.75 120.1495)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4b87abf5-3913-404f-b150-3a52c335f467")
 	)
 	(gr_arc
 		(start 88.75 107.0125)
 		(mid 88.396447 106.866053)
 		(end 88.25 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2566,7 +2607,7 @@
 		(start 104.775 30.575)
 		(end 104.775 145.6375)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2576,7 +2617,7 @@
 		(start 83.2 31.6)
 		(end 83.2 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2587,7 +2628,7 @@
 		(mid 83.053553 131.258947)
 		(end 83.2 131.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2597,7 +2638,7 @@
 		(start 31.6 93.0125)
 		(end 44.6 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2607,27 +2648,28 @@
 		(start 69.7 112.0625)
 		(end 82.7 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "54cf3b46-3e22-474c-aef9-64cb5fa50130")
 	)
-	(gr_line
-		(start 45.1 120.15)
-		(end 46.6 120.1495)
+	(gr_arc
+		(start 46.6 113.1495)
+		(mid 46.953553 113.295947)
+		(end 47.1 113.6495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "5651288c-356d-4a98-a8c3-5054fde178eb")
+		(uuid "55261f35-31d8-41bb-9500-84523d30cf51")
 	)
 	(gr_line
 		(start 64.15 74.4625)
 		(end 64.15 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2637,28 +2679,17 @@
 		(start 83.2 131.6125)
 		(end 83.2 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "57a4939c-244f-4a0e-9d57-6b8fee838e80")
 	)
-	(gr_arc
-		(start 45.1 144.6125)
-		(mid 44.953553 144.966053)
-		(end 44.6 145.1125)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "585ac7ae-7d4a-4743-afdd-70d34c5895c0")
-	)
 	(gr_line
 		(start 50.65 145.1125)
 		(end 63.65 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2668,7 +2699,7 @@
 		(start 50.65 54.9125)
 		(end 63.65 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2678,7 +2709,7 @@
 		(start 50.15 31.6)
 		(end 50.15 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2689,28 +2720,17 @@
 		(mid 64.003553 87.816053)
 		(end 63.65 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "5a5210c7-87f2-475c-a23f-f1f592b06054")
 	)
-	(gr_arc
-		(start 47.1 143.5255)
-		(mid 46.953553 143.879053)
-		(end 46.6 144.0255)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5b400275-65d3-42b3-9faf-badb447e7a30")
-	)
 	(gr_line
 		(start 88.75 31.1)
 		(end 101.75 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2720,7 +2740,7 @@
 		(start 88.25 93.5125)
 		(end 88.25 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2731,7 +2751,7 @@
 		(mid 44.953553 55.058947)
 		(end 45.1 55.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2741,7 +2761,7 @@
 		(start 50.65 107.0125)
 		(end 63.65 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2752,7 +2772,7 @@
 		(mid 50.296447 87.816053)
 		(end 50.15 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2762,17 +2782,27 @@
 		(start 69.7 145.1125)
 		(end 82.7 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "5ee81402-446b-4836-aff1-d8b073f0ac1e")
 	)
 	(gr_line
+		(start 45.4 120.1495)
+		(end 46.6 120.1495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "61b5cc5c-d3ee-44c9-aa33-9cdcc546ac7c")
+	)
+	(gr_line
 		(start 31.1 55.4125)
 		(end 31.1 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2783,7 +2813,7 @@
 		(mid 69.346447 144.966053)
 		(end 69.2 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2793,7 +2823,7 @@
 		(start 69.7 31.1)
 		(end 82.7 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2803,7 +2833,7 @@
 		(start 64.15 112.5625)
 		(end 64.15 125.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2814,7 +2844,7 @@
 		(mid 83.053553 87.816053)
 		(end 82.7 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2824,7 +2854,7 @@
 		(start 69.2 131.6125)
 		(end 69.2 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2834,7 +2864,7 @@
 		(start 69.7 126.0625)
 		(end 82.7 126.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2845,7 +2875,7 @@
 		(mid 102.103553 31.246447)
 		(end 102.25 31.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2856,7 +2886,7 @@
 		(mid 44.953553 68.766053)
 		(end 44.6 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2867,7 +2897,7 @@
 		(mid 104.189214 147.051714)
 		(end 102.775 147.6375)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2877,7 +2907,7 @@
 		(start 102.25 93.5125)
 		(end 102.25 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2887,7 +2917,7 @@
 		(start 69.2 31.6)
 		(end 69.2 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2897,7 +2927,7 @@
 		(start 50.65 68.9125)
 		(end 63.65 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2907,7 +2937,7 @@
 		(start 88.75 107.0125)
 		(end 101.75 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2917,28 +2947,60 @@
 		(start 69.7 93.0125)
 		(end 82.7 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "7001be47-578b-44ff-9d79-85acdb1e4b70")
 	)
 	(gr_line
+		(start 47.1 137.5255)
+		(end 47.1 143.5255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "70062a9b-f45c-4b2c-af29-c95f9d003b07")
+	)
+	(gr_arc
+		(start 87.95 144.0255)
+		(mid 88.162132 144.113368)
+		(end 88.25 144.3255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "704d26e7-39c8-4281-8329-2927b3ec2538")
+	)
+	(gr_line
 		(start 31.6 45.1)
 		(end 44.6 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "706e80d8-36b5-4514-97fc-48a9aefac9ec")
 	)
 	(gr_arc
+		(start 45.1 144.3255)
+		(mid 45.187868 144.113368)
+		(end 45.4 144.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "70fc5a1a-7b04-47c7-98f3-a8c007ba79b1")
+	)
+	(gr_arc
 		(start 50.15 131.6125)
 		(mid 50.296447 131.258947)
 		(end 50.65 131.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2949,7 +3011,7 @@
 		(mid 83.053553 112.208947)
 		(end 83.2 112.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2959,7 +3021,7 @@
 		(start 50.65 131.1125)
 		(end 63.65 131.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2970,7 +3032,7 @@
 		(mid 86.396447 113.295947)
 		(end 86.75 113.1495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -2981,18 +3043,39 @@
 		(mid 88.396447 31.246447)
 		(end 88.75 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "7418f4c0-50df-4693-98e0-d0ed1dd1c667")
 	)
 	(gr_arc
+		(start 47.1 119.6495)
+		(mid 46.953553 120.003053)
+		(end 46.6 120.1495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7728bc2a-36b2-46e0-a79d-5bd566c27e37")
+	)
+	(gr_line
+		(start 45.4 137.0255)
+		(end 46.6 137.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "778c4518-c009-466d-afe9-648abd61a384")
+	)
+	(gr_arc
 		(start 88.75 145.1125)
 		(mid 88.396447 144.966053)
 		(end 88.25 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3002,18 +3085,29 @@
 		(start 88.25 55.4125)
 		(end 88.25 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "7bccbec5-b3cd-4938-8040-1476ca1f5d13")
 	)
 	(gr_arc
+		(start 87.95 120.1495)
+		(mid 88.162132 120.237368)
+		(end 88.25 120.4495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c7b8111-0f3e-4823-87e8-1392054abb3b")
+	)
+	(gr_arc
 		(start 63.65 31.1)
 		(mid 64.003553 31.246447)
 		(end 64.15 31.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3024,7 +3118,7 @@
 		(mid 69.346447 112.208947)
 		(end 69.7 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3035,7 +3129,7 @@
 		(mid 29.160786 147.051714)
 		(end 28.575 145.6375)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3045,7 +3139,7 @@
 		(start 102.25 31.6)
 		(end 102.25 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3056,7 +3150,7 @@
 		(mid 31.246447 106.866053)
 		(end 31.1 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3066,18 +3160,28 @@
 		(start 88.75 73.9625)
 		(end 101.75 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "842120dd-6f5c-47b1-b0dd-5d29e49b73c3")
+	)
+	(gr_line
+		(start 45.4 113.1495)
+		(end 46.6 113.1495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "84afd86e-143e-47c4-b368-47b0b8430ac2")
 	)
 	(gr_arc
 		(start 69.2 131.6125)
 		(mid 69.346447 131.258947)
 		(end 69.7 131.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3088,7 +3192,7 @@
 		(mid 31.246447 74.108947)
 		(end 31.6 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3098,28 +3202,17 @@
 		(start 31.6 73.9625)
 		(end 44.6 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "8757c737-64c2-4b75-992d-524c074ca18e")
 	)
-	(gr_arc
-		(start 47.1 119.6495)
-		(mid 46.953553 120.003053)
-		(end 46.6 120.1495)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "882479c6-951a-45a0-8812-33ede3a7c8a2")
-	)
 	(gr_line
 		(start 88.75 68.9125)
 		(end 101.75 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3129,7 +3222,7 @@
 		(start 88.25 31.6)
 		(end 88.25 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3139,7 +3232,7 @@
 		(start 31.6 87.9625)
 		(end 44.6 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3150,7 +3243,7 @@
 		(mid 69.346447 93.158947)
 		(end 69.7 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3161,7 +3254,7 @@
 		(mid 50.296447 93.158947)
 		(end 50.65 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3172,7 +3265,7 @@
 		(mid 31.246447 44.953553)
 		(end 31.1 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3183,7 +3276,7 @@
 		(mid 29.160786 29.160786)
 		(end 30.575 28.575)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3193,7 +3286,7 @@
 		(start 83.2 55.4125)
 		(end 83.2 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3203,7 +3296,7 @@
 		(start 31.6 31.1)
 		(end 44.6 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3214,7 +3307,7 @@
 		(mid 88.396447 68.766053)
 		(end 88.25 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3224,7 +3317,7 @@
 		(start 64.15 55.4125)
 		(end 64.15 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3235,7 +3328,7 @@
 		(mid 64.003553 144.966053)
 		(end 63.65 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3246,7 +3339,7 @@
 		(mid 44.953553 87.816053)
 		(end 44.6 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3257,7 +3350,7 @@
 		(mid 83.053553 55.058947)
 		(end 83.2 55.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3267,28 +3360,29 @@
 		(start 45.1 93.5125)
 		(end 45.1 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "9cae4e04-31d2-4044-ba7a-f0ca94c7d19e")
 	)
-	(gr_line
-		(start 45.1 144.025)
-		(end 46.6 144.0255)
+	(gr_arc
+		(start 44.6 112.0625)
+		(mid 44.953553 112.208947)
+		(end 45.1 112.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9d67d781-9888-4b9c-935c-69694b00acae")
+		(uuid "9ed7aead-d945-4398-a108-349135115559")
 	)
 	(gr_arc
 		(start 82.7 73.9625)
 		(mid 83.053553 74.108947)
 		(end 83.2 74.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3299,7 +3393,7 @@
 		(mid 69.346447 68.766053)
 		(end 69.2 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3310,7 +3404,7 @@
 		(mid 50.296447 106.866053)
 		(end 50.15 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3321,37 +3415,48 @@
 		(mid 31.246447 68.766053)
 		(end 31.1 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "a451f8ed-8a39-4b04-b3b7-c9b63729583a")
 	)
+	(gr_arc
+		(start 45.1 144.6125)
+		(mid 44.953553 144.966053)
+		(end 44.6 145.1125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a53dadfc-4e00-427a-b94f-d53d185b8b28")
+	)
+	(gr_line
+		(start 45.1 144.3255)
+		(end 45.1 144.6125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a5bb0bcb-cf8c-4ef6-8596-b65edf02728a")
+	)
 	(gr_line
 		(start 69.2 93.5125)
 		(end 69.2 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "a5f86b04-316e-4fb4-ab72-89b1dcf642f5")
 	)
 	(gr_line
-		(start 47.1 137.5255)
-		(end 47.1 143.5255)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a68730f7-d821-48bd-b1a6-77e4a6fa809c")
-	)
-	(gr_line
 		(start 69.2 55.4125)
 		(end 69.2 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3362,7 +3467,7 @@
 		(mid 64.003553 68.766053)
 		(end 63.65 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3372,7 +3477,7 @@
 		(start 69.2 74.4625)
 		(end 69.2 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3383,28 +3488,17 @@
 		(mid 44.953553 31.246447)
 		(end 45.1 31.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "aab328d9-4dfb-47e9-91e1-35f00c1b6111")
 	)
-	(gr_arc
-		(start 46.6 113.1495)
-		(mid 46.953553 113.295947)
-		(end 47.1 113.6495)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "abc94a40-e1c3-416f-8d2c-bdb1e32fd0e8")
-	)
 	(gr_line
 		(start 69.7 107.0125)
 		(end 82.7 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3415,28 +3509,18 @@
 		(mid 83.053553 44.953553)
 		(end 82.7 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "acb6eec5-1f51-4d03-8162-96877e03f5da")
-	)
-	(gr_line
-		(start 88.25 144.025)
-		(end 86.75 144.0255)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "adb4971a-8431-4c0b-b355-e02df6b033dc")
 	)
 	(gr_arc
 		(start 88.75 87.9625)
 		(mid 88.396447 87.816053)
 		(end 88.25 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3447,7 +3531,7 @@
 		(mid 44.953553 74.108947)
 		(end 45.1 74.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3457,7 +3541,7 @@
 		(start 69.7 87.9625)
 		(end 82.7 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3467,37 +3551,38 @@
 		(start 31.1 112.5625)
 		(end 31.1 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "b04e2ec6-064f-413b-97b9-851cd5147e2e")
 	)
 	(gr_line
-		(start 45.1 120.15)
-		(end 45.1 137.025)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b142e9aa-4994-441b-afc1-773d988e7a48")
-	)
-	(gr_line
 		(start 69.7 45.1)
 		(end 82.7 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "b171c38d-e67d-4efb-af6f-cb9122e45c10")
 	)
+	(gr_arc
+		(start 45.4 113.1495)
+		(mid 45.187868 113.061632)
+		(end 45.1 112.8495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b2471c51-9388-4711-a9ba-8f99fd68a612")
+	)
 	(gr_line
 		(start 64.15 31.6)
 		(end 64.15 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3508,18 +3593,29 @@
 		(mid 104.189214 29.160786)
 		(end 104.775 30.575)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "b4adf05b-9ae8-4111-ae81-aad1c3f6d860")
 	)
 	(gr_arc
+		(start 46.6 137.0255)
+		(mid 46.953553 137.171947)
+		(end 47.1 137.5255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8cfe1fb-98f1-4500-9919-b907ff3e19a6")
+	)
+	(gr_arc
 		(start 83.2 125.5625)
 		(mid 83.053553 125.916053)
 		(end 82.7 126.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3530,7 +3626,7 @@
 		(mid 50.296447 31.246447)
 		(end 50.65 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3540,7 +3636,7 @@
 		(start 64.15 93.5125)
 		(end 64.15 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3550,18 +3646,28 @@
 		(start 88.75 54.9125)
 		(end 101.75 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "bb09d946-0be9-4144-872c-33f32a84644b")
+	)
+	(gr_line
+		(start 45.1 120.4495)
+		(end 45.1 136.7255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be911cea-6213-4f88-a3f0-3fc61ee2c448")
 	)
 	(gr_arc
 		(start 102.25 68.4125)
 		(mid 102.103553 68.766053)
 		(end 101.75 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3572,18 +3678,28 @@
 		(mid 83.053553 68.766053)
 		(end 82.7 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "c3384b32-f519-41ad-8682-8ef941534acb")
+	)
+	(gr_line
+		(start 45.4 144.0255)
+		(end 46.6 144.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c6866b99-7196-486c-8034-31dbf27f924c")
 	)
 	(gr_arc
 		(start 83.2 144.6125)
 		(mid 83.053553 144.966053)
 		(end 82.7 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3594,7 +3710,7 @@
 		(mid 88.396447 112.208947)
 		(end 88.75 112.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3605,7 +3721,7 @@
 		(mid 64.003553 125.916053)
 		(end 63.65 126.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3616,7 +3732,7 @@
 		(mid 50.296447 74.108947)
 		(end 50.65 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3627,7 +3743,7 @@
 		(mid 102.103553 144.966053)
 		(end 101.75 145.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3637,28 +3753,17 @@
 		(start 50.15 74.4625)
 		(end 50.15 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "d2c30cc7-5440-4db5-9acb-3b7cacc9944f")
 	)
-	(gr_arc
-		(start 44.6 112.0625)
-		(mid 44.953553 112.208947)
-		(end 45.1 112.5625)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d63e0ee1-86a9-42d9-ae12-413f1887bfda")
-	)
 	(gr_line
 		(start 28.575 145.6375)
 		(end 28.575 30.575)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3668,38 +3773,39 @@
 		(start 45.1 74.4625)
 		(end 45.1 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "d7dfec6d-8c0e-407a-b018-302a63251447")
 	)
+	(gr_arc
+		(start 45.4 137.0255)
+		(mid 45.187868 136.937632)
+		(end 45.1 136.7255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d80d08e8-c12e-4f4c-9acb-674e0168c453")
+	)
 	(gr_line
 		(start 88.25 112.5625)
-		(end 88.25 113.15)
+		(end 88.25 112.8495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "d81a959a-99d1-4e0b-bf5f-e33f0884e282")
-	)
-	(gr_line
-		(start 88.25 137.025)
-		(end 86.75 137.0255)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d9471677-3bd9-41e9-918e-237d068476ed")
 	)
 	(gr_arc
 		(start 64.15 106.5125)
 		(mid 64.003553 106.866053)
 		(end 63.65 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3710,7 +3816,7 @@
 		(mid 102.103553 106.866053)
 		(end 101.75 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3721,7 +3827,7 @@
 		(mid 102.103553 87.816053)
 		(end 101.75 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3732,7 +3838,7 @@
 		(mid 64.003553 74.108947)
 		(end 64.15 74.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3743,27 +3849,17 @@
 		(mid 50.296447 55.058947)
 		(end 50.65 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "dc594a71-9d7e-4833-8280-c53ed9fd1ea6")
 	)
 	(gr_line
-		(start 45.1 113.15)
-		(end 46.6 113.1495)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "dcde55d3-c06f-44dc-93af-b6a338da9cbc")
-	)
-	(gr_line
 		(start 50.65 87.9625)
 		(end 63.65 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3774,7 +3870,7 @@
 		(mid 83.053553 106.866053)
 		(end 82.7 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3785,7 +3881,7 @@
 		(mid 69.346447 31.246447)
 		(end 69.7 31.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3795,7 +3891,7 @@
 		(start 50.65 73.9625)
 		(end 63.65 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3805,7 +3901,7 @@
 		(start 50.65 126.0625)
 		(end 63.65 126.0625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3815,28 +3911,17 @@
 		(start 30.575 28.575)
 		(end 102.775 28.575)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e02fcf16-e9da-45e4-b8a6-0bf90e4a5f32")
 	)
-	(gr_arc
-		(start 46.6 137.0255)
-		(mid 46.953553 137.171947)
-		(end 47.1 137.5255)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e1a2b136-12bf-4ce3-826e-6c5e2190b543")
-	)
 	(gr_line
 		(start 102.25 112.5625)
 		(end 102.25 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3847,7 +3932,7 @@
 		(mid 83.053553 31.246447)
 		(end 83.2 31.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3857,7 +3942,7 @@
 		(start 69.7 73.9625)
 		(end 82.7 73.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3867,7 +3952,7 @@
 		(start 50.15 131.6125)
 		(end 50.15 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3877,28 +3962,18 @@
 		(start 69.7 131.1125)
 		(end 82.7 131.1125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e62ae947-f9a8-404d-b227-88843b0e42ca")
-	)
-	(gr_line
-		(start 45.1 137.025)
-		(end 46.6 137.0255)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e663a78b-e7b2-418b-aa3b-4c4b5d6a51c2")
 	)
 	(gr_arc
 		(start 50.65 68.9125)
 		(mid 50.296447 68.766053)
 		(end 50.15 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3909,7 +3984,7 @@
 		(mid 102.103553 44.953553)
 		(end 101.75 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3920,18 +3995,28 @@
 		(mid 88.396447 44.953553)
 		(end 88.25 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e905d8ed-5236-4b52-9c90-be0a268b8859")
+	)
+	(gr_line
+		(start 87.95 120.1495)
+		(end 86.75 120.1495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9a6b5a6-f571-4705-b114-27c6135c1d15")
 	)
 	(gr_arc
 		(start 88.25 93.5125)
 		(mid 88.396447 93.158947)
 		(end 88.75 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3941,7 +4026,7 @@
 		(start 69.2 112.5625)
 		(end 69.2 125.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3952,17 +4037,17 @@
 		(mid 64.003553 131.258947)
 		(end 64.15 131.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "ec92cee5-3084-4223-9226-9fbba6b34913")
 	)
 	(gr_line
-		(start 88.25 144.025)
+		(start 88.25 144.3255)
 		(end 88.25 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3972,7 +4057,7 @@
 		(start 88.75 87.9625)
 		(end 101.75 87.9625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3983,17 +4068,38 @@
 		(mid 102.103553 55.058947)
 		(end 102.25 55.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "efb3e76f-1ca4-4b90-bcb5-03e14105ba3e")
 	)
+	(gr_arc
+		(start 47.1 143.5255)
+		(mid 46.953553 143.879053)
+		(end 46.6 144.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f0db248b-2792-4f56-a822-d0b25462d820")
+	)
+	(gr_line
+		(start 87.95 137.0255)
+		(end 86.75 137.0255)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f117422c-9466-4bd2-b6ee-4c38249fde0d")
+	)
 	(gr_line
 		(start 83.2 93.5125)
 		(end 83.2 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4003,7 +4109,7 @@
 		(start 86.25 113.6495)
 		(end 86.25 119.6495)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4014,7 +4120,7 @@
 		(mid 31.246447 87.816053)
 		(end 31.1 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4024,27 +4130,17 @@
 		(start 69.7 68.9125)
 		(end 82.7 68.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f20458d4-9f28-4e2c-b23b-7d1124bd5088")
 	)
 	(gr_line
-		(start 45.1 144.025)
-		(end 45.1 144.6125)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f20ba9ef-042f-47ea-a269-57744e1c8a5b")
-	)
-	(gr_line
 		(start 45.1 55.4125)
 		(end 45.1 68.4125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4055,7 +4151,7 @@
 		(mid 31.246447 93.158947)
 		(end 31.6 93.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4065,7 +4161,7 @@
 		(start 31.1 74.4625)
 		(end 31.1 87.4625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4075,7 +4171,7 @@
 		(start 45.1 31.6)
 		(end 45.1 44.6)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4085,7 +4181,7 @@
 		(start 50.15 93.5125)
 		(end 50.15 106.5125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4096,7 +4192,7 @@
 		(mid 102.103553 112.208947)
 		(end 102.25 112.5625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4106,7 +4202,7 @@
 		(start 31.6 54.9125)
 		(end 44.6 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4117,7 +4213,7 @@
 		(mid 69.346447 55.058947)
 		(end 69.7 54.9125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4128,7 +4224,7 @@
 		(mid 50.296447 144.966053)
 		(end 50.15 144.6125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4139,7 +4235,7 @@
 		(mid 44.953553 106.866053)
 		(end 44.6 107.0125)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4150,7 +4246,7 @@
 		(mid 44.953553 44.953553)
 		(end 44.6 45.1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -4230,17 +4326,15 @@
 				(xy 31.175555 145.522725) (xy 31.340062 145.582601) (xy 31.512468 145.613) (xy 31.512472 145.613)
 				(xy 44.687528 145.613) (xy 44.687532 145.613) (xy 44.859938 145.582601) (xy 45.024445 145.522725)
 				(xy 45.176055 145.435192) (xy 45.310163 145.322663) (xy 45.422692 145.188555) (xy 45.510225 145.036945)
-				(xy 45.570101 144.872438) (xy 45.6005 144.700032) (xy 45.6005 144.649707) (xy 45.620185 144.582668)
-				(xy 45.672989 144.536913) (xy 45.724538 144.525707) (xy 46.525827 144.525975) (xy 46.526201 144.526)
-				(xy 46.599734 144.526) (xy 46.665725 144.526022) (xy 46.665727 144.526021) (xy 46.67364 144.526024)
-				(xy 46.674021 144.526) (xy 46.687528 144.526) (xy 46.687532 144.526) (xy 46.859938 144.495601) (xy 47.024445 144.435725)
-				(xy 47.176055 144.348192) (xy 47.310163 144.235663) (xy 47.422692 144.101555) (xy 47.510225 143.949945)
-				(xy 47.570101 143.785438) (xy 47.6005 143.613032) (xy 47.6005 143.5255) (xy 47.6005 143.459608)
-				(xy 47.6005 137.459608) (xy 47.6005 137.437968) (xy 47.570101 137.265562) (xy 47.510225 137.101055)
-				(xy 47.422692 136.949445) (xy 47.422691 136.949443) (xy 47.42269 136.949442) (xy 47.310163 136.815336)
-				(xy 47.176057 136.702809) (xy 47.024446 136.615275) (xy 46.859937 136.555398) (xy 46.687534 136.525)
-				(xy 46.687532 136.525) (xy 46.600068 136.525) (xy 45.724459 136.524707) (xy 45.657426 136.505) (xy 45.611688 136.452181)
-				(xy 45.6005 136.400707) (xy 45.6005 131.524965) (xy 49.6495 131.524965) (xy 49.6495 144.700034)
+				(xy 45.570101 144.872438) (xy 45.6005 144.700032) (xy 45.6005 144.65) (xy 45.620185 144.582961)
+				(xy 45.672989 144.537206) (xy 45.7245 144.526) (xy 46.687528 144.526) (xy 46.687532 144.526) (xy 46.859938 144.495601)
+				(xy 47.024445 144.435725) (xy 47.176055 144.348192) (xy 47.310163 144.235663) (xy 47.422692 144.101555)
+				(xy 47.510225 143.949945) (xy 47.570101 143.785438) (xy 47.6005 143.613032) (xy 47.6005 143.5255)
+				(xy 47.6005 143.459608) (xy 47.6005 137.459608) (xy 47.6005 137.437968) (xy 47.570101 137.265562)
+				(xy 47.510225 137.101055) (xy 47.422692 136.949445) (xy 47.422691 136.949443) (xy 47.42269 136.949442)
+				(xy 47.310163 136.815336) (xy 47.176057 136.702809) (xy 47.024446 136.615275) (xy 46.859937 136.555398)
+				(xy 46.687534 136.525) (xy 46.687532 136.525) (xy 46.665892 136.525) (xy 45.7245 136.525) (xy 45.657461 136.505315)
+				(xy 45.611706 136.452511) (xy 45.6005 136.401) (xy 45.6005 131.524965) (xy 49.6495 131.524965) (xy 49.6495 144.700034)
 				(xy 49.679898 144.872437) (xy 49.739775 145.036946) (xy 49.827309 145.188557) (xy 49.939836 145.322663)
 				(xy 50.073942 145.43519) (xy 50.073943 145.435191) (xy 50.073945 145.435192) (xy 50.225555 145.522725)
 				(xy 50.390062 145.582601) (xy 50.562468 145.613) (xy 50.562472 145.613) (xy 63.737528 145.613) (xy 63.737532 145.613)
@@ -4286,16 +4380,14 @@
 				(xy 86.385526 130.533347) (xy 86.572457 130.455917) (xy 86.63385 130.430488) (xy 86.633853 130.430486)
 				(xy 86.633859 130.430484) (xy 86.866641 130.296087) (xy 87.07989 130.132456) (xy 87.269956 129.94239)
 				(xy 87.433587 129.729141) (xy 87.518113 129.582738) (xy 87.56868 129.534522) (xy 87.637287 129.5213)
-				(xy 87.702152 129.547268) (xy 87.74268 129.604182) (xy 87.7495 129.644738) (xy 87.7495 136.400707)
-				(xy 87.729815 136.467746) (xy 87.677011 136.513501) (xy 87.625541 136.524707) (xy 86.749932 136.525)
-				(xy 86.662465 136.525) (xy 86.490062 136.555398) (xy 86.325553 136.615275) (xy 86.173942 136.702809)
-				(xy 86.039836 136.815336) (xy 85.927309 136.949442) (xy 85.839775 137.101053) (xy 85.779898 137.265562)
-				(xy 85.7495 137.437965) (xy 85.7495 143.613034) (xy 85.779898 143.785437) (xy 85.839775 143.949946)
-				(xy 85.927309 144.101557) (xy 86.039836 144.235663) (xy 86.173942 144.34819) (xy 86.173943 144.348191)
-				(xy 86.173945 144.348192) (xy 86.325555 144.435725) (xy 86.490062 144.495601) (xy 86.662468 144.526)
-				(xy 86.675979 144.526) (xy 86.676359 144.526024) (xy 86.684272 144.526021) (xy 86.684275 144.526022)
-				(xy 86.750266 144.526) (xy 86.815892 144.526) (xy 86.823898 144.526) (xy 86.824265 144.525975) (xy 87.62546 144.525707)
-				(xy 87.692505 144.545369) (xy 87.738277 144.598158) (xy 87.7495 144.649707) (xy 87.7495 144.700034)
+				(xy 87.702152 129.547268) (xy 87.74268 129.604182) (xy 87.7495 129.644738) (xy 87.7495 136.401)
+				(xy 87.729815 136.468039) (xy 87.677011 136.513794) (xy 87.6255 136.525) (xy 86.662465 136.525)
+				(xy 86.490062 136.555398) (xy 86.325553 136.615275) (xy 86.173942 136.702809) (xy 86.039836 136.815336)
+				(xy 85.927309 136.949442) (xy 85.839775 137.101053) (xy 85.779898 137.265562) (xy 85.7495 137.437965)
+				(xy 85.7495 143.613034) (xy 85.779898 143.785437) (xy 85.839775 143.949946) (xy 85.927309 144.101557)
+				(xy 86.039836 144.235663) (xy 86.173942 144.34819) (xy 86.173943 144.348191) (xy 86.173945 144.348192)
+				(xy 86.325555 144.435725) (xy 86.490062 144.495601) (xy 86.662468 144.526) (xy 86.684108 144.526)
+				(xy 87.6255 144.526) (xy 87.692539 144.545685) (xy 87.738294 144.598489) (xy 87.7495 144.65) (xy 87.7495 144.700034)
 				(xy 87.779898 144.872437) (xy 87.839775 145.036946) (xy 87.927309 145.188557) (xy 88.039836 145.322663)
 				(xy 88.173942 145.43519) (xy 88.173943 145.435191) (xy 88.173945 145.435192) (xy 88.325555 145.522725)
 				(xy 88.490062 145.582601) (xy 88.662468 145.613) (xy 88.662472 145.613) (xy 101.837528 145.613)
@@ -4308,15 +4400,13 @@
 				(xy 101.815892 111.562) (xy 88.815892 111.562) (xy 88.75 111.562) (xy 88.662468 111.562) (xy 88.662465 111.562)
 				(xy 88.490062 111.592398) (xy 88.325553 111.652275) (xy 88.173942 111.739809) (xy 88.039836 111.852336)
 				(xy 87.927309 111.986442) (xy 87.839775 112.138053) (xy 87.779898 112.302562) (xy 87.7495 112.474965)
-				(xy 87.7495 112.525291) (xy 87.729815 112.59233) (xy 87.677011 112.638085) (xy 87.625459 112.649291)
-				(xy 86.82391 112.649023) (xy 86.823539 112.649) (xy 86.815892 112.649) (xy 86.750266 112.649) (xy 86.750196 112.648999)
-				(xy 86.676359 112.648975) (xy 86.675979 112.649) (xy 86.662465 112.649) (xy 86.490062 112.679398)
-				(xy 86.325553 112.739275) (xy 86.173942 112.826809) (xy 86.039836 112.939336) (xy 85.927309 113.073442)
-				(xy 85.839775 113.225053) (xy 85.779898 113.389562) (xy 85.7495 113.561965) (xy 85.7495 119.737034)
-				(xy 85.779898 119.909437) (xy 85.839775 120.073946) (xy 85.927309 120.225557) (xy 86.039836 120.359663)
-				(xy 86.173942 120.47219) (xy 86.173943 120.472191) (xy 86.173945 120.472192) (xy 86.325555 120.559725)
-				(xy 86.490062 120.619601) (xy 86.662468 120.65) (xy 86.662472 120.65) (xy 86.749932 120.65) (xy 87.625543 120.650291)
-				(xy 87.692574 120.669998) (xy 87.738311 120.722817) (xy 87.7495 120.774291) (xy 87.7495 127.530261)
+				(xy 87.7495 112.525) (xy 87.729815 112.592039) (xy 87.677011 112.637794) (xy 87.6255 112.649) (xy 86.662465 112.649)
+				(xy 86.490062 112.679398) (xy 86.325553 112.739275) (xy 86.173942 112.826809) (xy 86.039836 112.939336)
+				(xy 85.927309 113.073442) (xy 85.839775 113.225053) (xy 85.779898 113.389562) (xy 85.7495 113.561965)
+				(xy 85.7495 119.737034) (xy 85.779898 119.909437) (xy 85.839775 120.073946) (xy 85.927309 120.225557)
+				(xy 86.039836 120.359663) (xy 86.173942 120.47219) (xy 86.173943 120.472191) (xy 86.173945 120.472192)
+				(xy 86.325555 120.559725) (xy 86.490062 120.619601) (xy 86.662468 120.65) (xy 86.684108 120.65)
+				(xy 87.6255 120.65) (xy 87.692539 120.669685) (xy 87.738294 120.722489) (xy 87.7495 120.774) (xy 87.7495 127.530261)
 				(xy 87.729815 127.5973) (xy 87.677011 127.643055) (xy 87.607853 127.652999) (xy 87.544297 127.623974)
 				(xy 87.518113 127.592262) (xy 87.516226 127.588993) (xy 87.433587 127.445859) (xy 87.269956 127.23261)
 				(xy 87.269951 127.232604) (xy 87.079895 127.042548) (xy 87.079888 127.042542) (xy 86.866645 126.878916)
@@ -4340,27 +4430,26 @@
 				(xy 46.270104 127.042548) (xy 46.080048 127.232604) (xy 46.080042 127.232611) (xy 45.916418 127.445851)
 				(xy 45.916414 127.445856) (xy 45.916413 127.445859) (xy 45.844268 127.570817) (xy 45.831887 127.592262)
 				(xy 45.781319 127.640477) (xy 45.712712 127.653699) (xy 45.647848 127.627731) (xy 45.60732 127.570817)
-				(xy 45.6005 127.530261) (xy 45.6005 120.774291) (xy 45.620185 120.707252) (xy 45.672989 120.661497)
-				(xy 45.724455 120.650291) (xy 46.600068 120.65) (xy 46.687532 120.65) (xy 46.859938 120.619601)
-				(xy 47.024445 120.559725) (xy 47.176055 120.472192) (xy 47.310163 120.359663) (xy 47.422692 120.225555)
-				(xy 47.510225 120.073945) (xy 47.570101 119.909438) (xy 47.6005 119.737032) (xy 47.6005 119.6495)
-				(xy 47.6005 119.583608) (xy 47.6005 113.583608) (xy 47.6005 113.561968) (xy 47.570101 113.389562)
-				(xy 47.510225 113.225055) (xy 47.504981 113.215973) (xy 47.42269 113.073442) (xy 47.310163 112.939336)
+				(xy 45.6005 127.530261) (xy 45.6005 120.774) (xy 45.620185 120.706961) (xy 45.672989 120.661206)
+				(xy 45.7245 120.65) (xy 46.687528 120.65) (xy 46.687532 120.65) (xy 46.859938 120.619601) (xy 47.024445 120.559725)
+				(xy 47.176055 120.472192) (xy 47.310163 120.359663) (xy 47.422692 120.225555) (xy 47.510225 120.073945)
+				(xy 47.570101 119.909438) (xy 47.6005 119.737032) (xy 47.6005 119.6495) (xy 47.6005 119.583608)
+				(xy 47.6005 113.583608) (xy 47.6005 113.561968) (xy 47.570101 113.389562) (xy 47.510225 113.225055)
+				(xy 47.422692 113.073445) (xy 47.422691 113.073443) (xy 47.42269 113.073442) (xy 47.310163 112.939336)
 				(xy 47.176057 112.826809) (xy 47.024446 112.739275) (xy 46.859937 112.679398) (xy 46.687534 112.649)
-				(xy 46.687532 112.649) (xy 46.674021 112.649) (xy 46.67364 112.648975) (xy 46.599803 112.648999)
-				(xy 46.599734 112.649) (xy 46.526555 112.649) (xy 46.526179 112.649023) (xy 45.724541 112.649291)
-				(xy 45.657495 112.629629) (xy 45.611723 112.57684) (xy 45.6005 112.525291) (xy 45.6005 112.474972)
-				(xy 45.6005 112.474968) (xy 45.600499 112.474965) (xy 49.6495 112.474965) (xy 49.6495 125.650034)
-				(xy 49.679898 125.822437) (xy 49.739775 125.986946) (xy 49.827309 126.138557) (xy 49.939836 126.272663)
-				(xy 50.073942 126.38519) (xy 50.073943 126.385191) (xy 50.073945 126.385192) (xy 50.225555 126.472725)
-				(xy 50.390062 126.532601) (xy 50.562468 126.563) (xy 50.562472 126.563) (xy 63.737528 126.563) (xy 63.737532 126.563)
-				(xy 63.909938 126.532601) (xy 64.074445 126.472725) (xy 64.226055 126.385192) (xy 64.360163 126.272663)
-				(xy 64.472692 126.138555) (xy 64.560225 125.986945) (xy 64.620101 125.822438) (xy 64.6505 125.650032)
-				(xy 64.6505 125.5625) (xy 64.6505 125.496608) (xy 64.6505 112.496608) (xy 64.6505 112.474968) (xy 64.650499 112.474965)
-				(xy 68.6995 112.474965) (xy 68.6995 125.650034) (xy 68.729898 125.822437) (xy 68.789775 125.986946)
-				(xy 68.877309 126.138557) (xy 68.989836 126.272663) (xy 69.123942 126.38519) (xy 69.123943 126.385191)
-				(xy 69.123945 126.385192) (xy 69.275555 126.472725) (xy 69.440062 126.532601) (xy 69.612468 126.563)
-				(xy 69.612472 126.563) (xy 82.787528 126.563) (xy 82.787532 126.563) (xy 82.959938 126.532601) (xy 83.124445 126.472725)
+				(xy 46.687532 112.649) (xy 46.665892 112.649) (xy 45.7245 112.649) (xy 45.657461 112.629315) (xy 45.611706 112.576511)
+				(xy 45.6005 112.525) (xy 45.6005 112.474972) (xy 45.6005 112.474968) (xy 45.600499 112.474965) (xy 49.6495 112.474965)
+				(xy 49.6495 125.650034) (xy 49.679898 125.822437) (xy 49.739775 125.986946) (xy 49.827309 126.138557)
+				(xy 49.939836 126.272663) (xy 50.073942 126.38519) (xy 50.073943 126.385191) (xy 50.073945 126.385192)
+				(xy 50.225555 126.472725) (xy 50.390062 126.532601) (xy 50.562468 126.563) (xy 50.562472 126.563)
+				(xy 63.737528 126.563) (xy 63.737532 126.563) (xy 63.909938 126.532601) (xy 64.074445 126.472725)
+				(xy 64.226055 126.385192) (xy 64.360163 126.272663) (xy 64.472692 126.138555) (xy 64.560225 125.986945)
+				(xy 64.620101 125.822438) (xy 64.6505 125.650032) (xy 64.6505 125.5625) (xy 64.6505 125.496608)
+				(xy 64.6505 112.496608) (xy 64.6505 112.474968) (xy 64.650499 112.474965) (xy 68.6995 112.474965)
+				(xy 68.6995 125.650034) (xy 68.729898 125.822437) (xy 68.789775 125.986946) (xy 68.877309 126.138557)
+				(xy 68.989836 126.272663) (xy 69.123942 126.38519) (xy 69.123943 126.385191) (xy 69.123945 126.385192)
+				(xy 69.275555 126.472725) (xy 69.440062 126.532601) (xy 69.612468 126.563) (xy 69.612472 126.563)
+				(xy 82.787528 126.563) (xy 82.787532 126.563) (xy 82.959938 126.532601) (xy 83.124445 126.472725)
 				(xy 83.276055 126.385192) (xy 83.410163 126.272663) (xy 83.522692 126.138555) (xy 83.610225 125.986945)
 				(xy 83.670101 125.822438) (xy 83.7005 125.650032) (xy 83.7005 125.5625) (xy 83.7005 125.496608)
 				(xy 83.7005 112.496608) (xy 83.7005 112.474968) (xy 83.670101 112.302562) (xy 83.610225 112.138055)
@@ -4747,17 +4836,15 @@
 				(xy 31.175555 145.522725) (xy 31.340062 145.582601) (xy 31.512468 145.613) (xy 31.512472 145.613)
 				(xy 44.687528 145.613) (xy 44.687532 145.613) (xy 44.859938 145.582601) (xy 45.024445 145.522725)
 				(xy 45.176055 145.435192) (xy 45.310163 145.322663) (xy 45.422692 145.188555) (xy 45.510225 145.036945)
-				(xy 45.570101 144.872438) (xy 45.6005 144.700032) (xy 45.6005 144.649707) (xy 45.620185 144.582668)
-				(xy 45.672989 144.536913) (xy 45.724538 144.525707) (xy 46.525827 144.525975) (xy 46.526201 144.526)
-				(xy 46.599734 144.526) (xy 46.665725 144.526022) (xy 46.665727 144.526021) (xy 46.67364 144.526024)
-				(xy 46.674021 144.526) (xy 46.687528 144.526) (xy 46.687532 144.526) (xy 46.859938 144.495601) (xy 47.024445 144.435725)
-				(xy 47.176055 144.348192) (xy 47.310163 144.235663) (xy 47.422692 144.101555) (xy 47.510225 143.949945)
-				(xy 47.570101 143.785438) (xy 47.6005 143.613032) (xy 47.6005 143.5255) (xy 47.6005 143.459608)
-				(xy 47.6005 137.459608) (xy 47.6005 137.437968) (xy 47.570101 137.265562) (xy 47.510225 137.101055)
-				(xy 47.422692 136.949445) (xy 47.422691 136.949443) (xy 47.42269 136.949442) (xy 47.310163 136.815336)
-				(xy 47.176057 136.702809) (xy 47.024446 136.615275) (xy 46.859937 136.555398) (xy 46.687534 136.525)
-				(xy 46.687532 136.525) (xy 46.600068 136.525) (xy 45.724459 136.524707) (xy 45.657426 136.505) (xy 45.611688 136.452181)
-				(xy 45.6005 136.400707) (xy 45.6005 131.524965) (xy 49.6495 131.524965) (xy 49.6495 144.700034)
+				(xy 45.570101 144.872438) (xy 45.6005 144.700032) (xy 45.6005 144.65) (xy 45.620185 144.582961)
+				(xy 45.672989 144.537206) (xy 45.7245 144.526) (xy 46.687528 144.526) (xy 46.687532 144.526) (xy 46.859938 144.495601)
+				(xy 47.024445 144.435725) (xy 47.176055 144.348192) (xy 47.310163 144.235663) (xy 47.422692 144.101555)
+				(xy 47.510225 143.949945) (xy 47.570101 143.785438) (xy 47.6005 143.613032) (xy 47.6005 143.5255)
+				(xy 47.6005 143.459608) (xy 47.6005 137.459608) (xy 47.6005 137.437968) (xy 47.570101 137.265562)
+				(xy 47.510225 137.101055) (xy 47.422692 136.949445) (xy 47.422691 136.949443) (xy 47.42269 136.949442)
+				(xy 47.310163 136.815336) (xy 47.176057 136.702809) (xy 47.024446 136.615275) (xy 46.859937 136.555398)
+				(xy 46.687534 136.525) (xy 46.687532 136.525) (xy 46.665892 136.525) (xy 45.7245 136.525) (xy 45.657461 136.505315)
+				(xy 45.611706 136.452511) (xy 45.6005 136.401) (xy 45.6005 131.524965) (xy 49.6495 131.524965) (xy 49.6495 144.700034)
 				(xy 49.679898 144.872437) (xy 49.739775 145.036946) (xy 49.827309 145.188557) (xy 49.939836 145.322663)
 				(xy 50.073942 145.43519) (xy 50.073943 145.435191) (xy 50.073945 145.435192) (xy 50.225555 145.522725)
 				(xy 50.390062 145.582601) (xy 50.562468 145.613) (xy 50.562472 145.613) (xy 63.737528 145.613) (xy 63.737532 145.613)
@@ -4803,16 +4890,14 @@
 				(xy 86.385526 130.533347) (xy 86.572457 130.455917) (xy 86.63385 130.430488) (xy 86.633853 130.430486)
 				(xy 86.633859 130.430484) (xy 86.866641 130.296087) (xy 87.07989 130.132456) (xy 87.269956 129.94239)
 				(xy 87.433587 129.729141) (xy 87.518113 129.582738) (xy 87.56868 129.534522) (xy 87.637287 129.5213)
-				(xy 87.702152 129.547268) (xy 87.74268 129.604182) (xy 87.7495 129.644738) (xy 87.7495 136.400707)
-				(xy 87.729815 136.467746) (xy 87.677011 136.513501) (xy 87.625541 136.524707) (xy 86.749932 136.525)
-				(xy 86.662465 136.525) (xy 86.490062 136.555398) (xy 86.325553 136.615275) (xy 86.173942 136.702809)
-				(xy 86.039836 136.815336) (xy 85.927309 136.949442) (xy 85.839775 137.101053) (xy 85.779898 137.265562)
-				(xy 85.7495 137.437965) (xy 85.7495 143.613034) (xy 85.779898 143.785437) (xy 85.839775 143.949946)
-				(xy 85.927309 144.101557) (xy 86.039836 144.235663) (xy 86.173942 144.34819) (xy 86.173943 144.348191)
-				(xy 86.173945 144.348192) (xy 86.325555 144.435725) (xy 86.490062 144.495601) (xy 86.662468 144.526)
-				(xy 86.675979 144.526) (xy 86.676359 144.526024) (xy 86.684272 144.526021) (xy 86.684275 144.526022)
-				(xy 86.750266 144.526) (xy 86.815892 144.526) (xy 86.823898 144.526) (xy 86.824265 144.525975) (xy 87.62546 144.525707)
-				(xy 87.692505 144.545369) (xy 87.738277 144.598158) (xy 87.7495 144.649707) (xy 87.7495 144.700034)
+				(xy 87.702152 129.547268) (xy 87.74268 129.604182) (xy 87.7495 129.644738) (xy 87.7495 136.401)
+				(xy 87.729815 136.468039) (xy 87.677011 136.513794) (xy 87.6255 136.525) (xy 86.662465 136.525)
+				(xy 86.490062 136.555398) (xy 86.325553 136.615275) (xy 86.173942 136.702809) (xy 86.039836 136.815336)
+				(xy 85.927309 136.949442) (xy 85.839775 137.101053) (xy 85.779898 137.265562) (xy 85.7495 137.437965)
+				(xy 85.7495 143.613034) (xy 85.779898 143.785437) (xy 85.839775 143.949946) (xy 85.927309 144.101557)
+				(xy 86.039836 144.235663) (xy 86.173942 144.34819) (xy 86.173943 144.348191) (xy 86.173945 144.348192)
+				(xy 86.325555 144.435725) (xy 86.490062 144.495601) (xy 86.662468 144.526) (xy 86.684108 144.526)
+				(xy 87.6255 144.526) (xy 87.692539 144.545685) (xy 87.738294 144.598489) (xy 87.7495 144.65) (xy 87.7495 144.700034)
 				(xy 87.779898 144.872437) (xy 87.839775 145.036946) (xy 87.927309 145.188557) (xy 88.039836 145.322663)
 				(xy 88.173942 145.43519) (xy 88.173943 145.435191) (xy 88.173945 145.435192) (xy 88.325555 145.522725)
 				(xy 88.490062 145.582601) (xy 88.662468 145.613) (xy 88.662472 145.613) (xy 101.837528 145.613)
@@ -4825,15 +4910,13 @@
 				(xy 101.815892 111.562) (xy 88.815892 111.562) (xy 88.75 111.562) (xy 88.662468 111.562) (xy 88.662465 111.562)
 				(xy 88.490062 111.592398) (xy 88.325553 111.652275) (xy 88.173942 111.739809) (xy 88.039836 111.852336)
 				(xy 87.927309 111.986442) (xy 87.839775 112.138053) (xy 87.779898 112.302562) (xy 87.7495 112.474965)
-				(xy 87.7495 112.525291) (xy 87.729815 112.59233) (xy 87.677011 112.638085) (xy 87.625459 112.649291)
-				(xy 86.82391 112.649023) (xy 86.823539 112.649) (xy 86.815892 112.649) (xy 86.750266 112.649) (xy 86.750196 112.648999)
-				(xy 86.676359 112.648975) (xy 86.675979 112.649) (xy 86.662465 112.649) (xy 86.490062 112.679398)
-				(xy 86.325553 112.739275) (xy 86.173942 112.826809) (xy 86.039836 112.939336) (xy 85.927309 113.073442)
-				(xy 85.839775 113.225053) (xy 85.779898 113.389562) (xy 85.7495 113.561965) (xy 85.7495 119.737034)
-				(xy 85.779898 119.909437) (xy 85.839775 120.073946) (xy 85.927309 120.225557) (xy 86.039836 120.359663)
-				(xy 86.173942 120.47219) (xy 86.173943 120.472191) (xy 86.173945 120.472192) (xy 86.325555 120.559725)
-				(xy 86.490062 120.619601) (xy 86.662468 120.65) (xy 86.662472 120.65) (xy 86.749932 120.65) (xy 87.625543 120.650291)
-				(xy 87.692574 120.669998) (xy 87.738311 120.722817) (xy 87.7495 120.774291) (xy 87.7495 127.530261)
+				(xy 87.7495 112.525) (xy 87.729815 112.592039) (xy 87.677011 112.637794) (xy 87.6255 112.649) (xy 86.662465 112.649)
+				(xy 86.490062 112.679398) (xy 86.325553 112.739275) (xy 86.173942 112.826809) (xy 86.039836 112.939336)
+				(xy 85.927309 113.073442) (xy 85.839775 113.225053) (xy 85.779898 113.389562) (xy 85.7495 113.561965)
+				(xy 85.7495 119.737034) (xy 85.779898 119.909437) (xy 85.839775 120.073946) (xy 85.927309 120.225557)
+				(xy 86.039836 120.359663) (xy 86.173942 120.47219) (xy 86.173943 120.472191) (xy 86.173945 120.472192)
+				(xy 86.325555 120.559725) (xy 86.490062 120.619601) (xy 86.662468 120.65) (xy 86.684108 120.65)
+				(xy 87.6255 120.65) (xy 87.692539 120.669685) (xy 87.738294 120.722489) (xy 87.7495 120.774) (xy 87.7495 127.530261)
 				(xy 87.729815 127.5973) (xy 87.677011 127.643055) (xy 87.607853 127.652999) (xy 87.544297 127.623974)
 				(xy 87.518113 127.592262) (xy 87.516226 127.588993) (xy 87.433587 127.445859) (xy 87.269956 127.23261)
 				(xy 87.269951 127.232604) (xy 87.079895 127.042548) (xy 87.079888 127.042542) (xy 86.866645 126.878916)
@@ -4857,27 +4940,26 @@
 				(xy 46.270104 127.042548) (xy 46.080048 127.232604) (xy 46.080042 127.232611) (xy 45.916418 127.445851)
 				(xy 45.916414 127.445856) (xy 45.916413 127.445859) (xy 45.844268 127.570817) (xy 45.831887 127.592262)
 				(xy 45.781319 127.640477) (xy 45.712712 127.653699) (xy 45.647848 127.627731) (xy 45.60732 127.570817)
-				(xy 45.6005 127.530261) (xy 45.6005 120.774291) (xy 45.620185 120.707252) (xy 45.672989 120.661497)
-				(xy 45.724455 120.650291) (xy 46.600068 120.65) (xy 46.687532 120.65) (xy 46.859938 120.619601)
-				(xy 47.024445 120.559725) (xy 47.176055 120.472192) (xy 47.310163 120.359663) (xy 47.422692 120.225555)
-				(xy 47.510225 120.073945) (xy 47.570101 119.909438) (xy 47.6005 119.737032) (xy 47.6005 119.6495)
-				(xy 47.6005 119.583608) (xy 47.6005 113.583608) (xy 47.6005 113.561968) (xy 47.570101 113.389562)
-				(xy 47.510225 113.225055) (xy 47.504981 113.215973) (xy 47.42269 113.073442) (xy 47.310163 112.939336)
+				(xy 45.6005 127.530261) (xy 45.6005 120.774) (xy 45.620185 120.706961) (xy 45.672989 120.661206)
+				(xy 45.7245 120.65) (xy 46.687528 120.65) (xy 46.687532 120.65) (xy 46.859938 120.619601) (xy 47.024445 120.559725)
+				(xy 47.176055 120.472192) (xy 47.310163 120.359663) (xy 47.422692 120.225555) (xy 47.510225 120.073945)
+				(xy 47.570101 119.909438) (xy 47.6005 119.737032) (xy 47.6005 119.6495) (xy 47.6005 119.583608)
+				(xy 47.6005 113.583608) (xy 47.6005 113.561968) (xy 47.570101 113.389562) (xy 47.510225 113.225055)
+				(xy 47.422692 113.073445) (xy 47.422691 113.073443) (xy 47.42269 113.073442) (xy 47.310163 112.939336)
 				(xy 47.176057 112.826809) (xy 47.024446 112.739275) (xy 46.859937 112.679398) (xy 46.687534 112.649)
-				(xy 46.687532 112.649) (xy 46.674021 112.649) (xy 46.67364 112.648975) (xy 46.599803 112.648999)
-				(xy 46.599734 112.649) (xy 46.526555 112.649) (xy 46.526179 112.649023) (xy 45.724541 112.649291)
-				(xy 45.657495 112.629629) (xy 45.611723 112.57684) (xy 45.6005 112.525291) (xy 45.6005 112.474972)
-				(xy 45.6005 112.474968) (xy 45.600499 112.474965) (xy 49.6495 112.474965) (xy 49.6495 125.650034)
-				(xy 49.679898 125.822437) (xy 49.739775 125.986946) (xy 49.827309 126.138557) (xy 49.939836 126.272663)
-				(xy 50.073942 126.38519) (xy 50.073943 126.385191) (xy 50.073945 126.385192) (xy 50.225555 126.472725)
-				(xy 50.390062 126.532601) (xy 50.562468 126.563) (xy 50.562472 126.563) (xy 63.737528 126.563) (xy 63.737532 126.563)
-				(xy 63.909938 126.532601) (xy 64.074445 126.472725) (xy 64.226055 126.385192) (xy 64.360163 126.272663)
-				(xy 64.472692 126.138555) (xy 64.560225 125.986945) (xy 64.620101 125.822438) (xy 64.6505 125.650032)
-				(xy 64.6505 125.5625) (xy 64.6505 125.496608) (xy 64.6505 112.496608) (xy 64.6505 112.474968) (xy 64.650499 112.474965)
-				(xy 68.6995 112.474965) (xy 68.6995 125.650034) (xy 68.729898 125.822437) (xy 68.789775 125.986946)
-				(xy 68.877309 126.138557) (xy 68.989836 126.272663) (xy 69.123942 126.38519) (xy 69.123943 126.385191)
-				(xy 69.123945 126.385192) (xy 69.275555 126.472725) (xy 69.440062 126.532601) (xy 69.612468 126.563)
-				(xy 69.612472 126.563) (xy 82.787528 126.563) (xy 82.787532 126.563) (xy 82.959938 126.532601) (xy 83.124445 126.472725)
+				(xy 46.687532 112.649) (xy 46.665892 112.649) (xy 45.7245 112.649) (xy 45.657461 112.629315) (xy 45.611706 112.576511)
+				(xy 45.6005 112.525) (xy 45.6005 112.474972) (xy 45.6005 112.474968) (xy 45.600499 112.474965) (xy 49.6495 112.474965)
+				(xy 49.6495 125.650034) (xy 49.679898 125.822437) (xy 49.739775 125.986946) (xy 49.827309 126.138557)
+				(xy 49.939836 126.272663) (xy 50.073942 126.38519) (xy 50.073943 126.385191) (xy 50.073945 126.385192)
+				(xy 50.225555 126.472725) (xy 50.390062 126.532601) (xy 50.562468 126.563) (xy 50.562472 126.563)
+				(xy 63.737528 126.563) (xy 63.737532 126.563) (xy 63.909938 126.532601) (xy 64.074445 126.472725)
+				(xy 64.226055 126.385192) (xy 64.360163 126.272663) (xy 64.472692 126.138555) (xy 64.560225 125.986945)
+				(xy 64.620101 125.822438) (xy 64.6505 125.650032) (xy 64.6505 125.5625) (xy 64.6505 125.496608)
+				(xy 64.6505 112.496608) (xy 64.6505 112.474968) (xy 64.650499 112.474965) (xy 68.6995 112.474965)
+				(xy 68.6995 125.650034) (xy 68.729898 125.822437) (xy 68.789775 125.986946) (xy 68.877309 126.138557)
+				(xy 68.989836 126.272663) (xy 69.123942 126.38519) (xy 69.123943 126.385191) (xy 69.123945 126.385192)
+				(xy 69.275555 126.472725) (xy 69.440062 126.532601) (xy 69.612468 126.563) (xy 69.612472 126.563)
+				(xy 82.787528 126.563) (xy 82.787532 126.563) (xy 82.959938 126.532601) (xy 83.124445 126.472725)
 				(xy 83.276055 126.385192) (xy 83.410163 126.272663) (xy 83.522692 126.138555) (xy 83.610225 125.986945)
 				(xy 83.670101 125.822438) (xy 83.7005 125.650032) (xy 83.7005 125.5625) (xy 83.7005 125.496608)
 				(xy 83.7005 112.496608) (xy 83.7005 112.474968) (xy 83.670101 112.302562) (xy 83.610225 112.138055)
@@ -5239,9 +5321,13 @@
 	)
 	(group ""
 		(uuid "6571e50e-0fee-4d2f-a36d-08e4747f9571")
-		(members "38dfca23-c638-45cc-be56-a39c57e044ed" "3d64a6f3-943f-4f41-9b37-7124970e388f"
-			"5ff58af0-570a-4e83-98b3-3f91c925265d" "dc97422e-9750-4992-ae3a-d84a6aad2dc8"
+		(members "38dfca23-c638-45cc-be56-a39c57e044ed" "5ff58af0-570a-4e83-98b3-3f91c925265d"
+			"dc97422e-9750-4992-ae3a-d84a6aad2dc8"
 		)
+	)
+	(group ""
+		(uuid "e284cd1d-fc07-4675-bddd-323464b3d9d4")
+		(members "6b1894ba-f61b-4fa7-8879-ffbb52e1e824" "768bc75a-4827-438a-aba1-c055f5a9c4bc")
 	)
 	(group ""
 		(uuid "70242af1-d78a-4bd0-a340-8f3a272b19ad")
@@ -5250,9 +5336,5 @@
 			"a5316662-347a-43d5-af4e-af369ec54b3f" "b4c6dd45-5f76-4cf0-a4ee-9365d40d7cb8"
 			"dc096396-2dde-4c48-9d32-ea95505d4b6c" "edc02e36-b476-4b52-bfa5-9695fdf19e4c"
 		)
-	)
-	(group ""
-		(uuid "e284cd1d-fc07-4675-bddd-323464b3d9d4")
-		(members "6b1894ba-f61b-4fa7-8879-ffbb52e1e824" "768bc75a-4827-438a-aba1-c055f5a9c4bc")
 	)
 )

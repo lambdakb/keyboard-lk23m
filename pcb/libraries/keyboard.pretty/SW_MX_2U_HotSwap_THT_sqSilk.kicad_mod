@@ -717,15 +717,26 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/Stabilizer - close.step"
+	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/kiswitch/Stabilizer_Cherry_MX_2.00u.stp"
 		(offset
-			(xyz -11.95 0 3.65)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/kiswitch/SW_Cherry_MX_PCB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )

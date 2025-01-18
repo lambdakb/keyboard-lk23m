@@ -381,4 +381,15 @@
 		(remove_unused_layers no)
 		(uuid "571a1200-816b-4df4-a3df-4f57596be4b0")
 	)
+	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/kbd/OLED-Module-with-Pins.step"
+		(offset
+			(xyz -17 0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

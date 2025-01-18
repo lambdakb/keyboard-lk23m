@@ -379,15 +379,4 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/Adafruit KB2040 v7.step"
-		(offset
-			(xyz 0 -12.7 5.6)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 180 0)
-		)
-	)
 )

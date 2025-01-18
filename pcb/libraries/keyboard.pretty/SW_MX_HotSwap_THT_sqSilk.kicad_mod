@@ -688,4 +688,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/libraries/keyboard.pretty/3dmodels/kiswitch/SW_Cherry_MX_PCB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
