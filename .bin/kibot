@@ -1,15 +1,12 @@
 #!/bin/bash
 set -eo pipefail
-cmd=/bin/bash
 image=ghcr.io/inti-cmnb/kicad8_auto
 workdir=$(git rev-parse --show-toplevel)
 
 # Two optional arguments, first is the command to run, the second the image name
+cmd=$(basename "$0")
 if [ -n "$1" ]; then
-    cmd="$1"
-fi
-if [ -n "$2" ]; then
-    image="$2"
+    cmd="$cmd $*"
 fi
 
 echo "Starting ${image} ..."
@@ -27,8 +24,3 @@ docker run --rm -it \
     --volume="${workdir}:${workdir}:rw" \
     --volume="/home/${USER}/.config/kicad/8.0:/home/${USER}.linux/.config/kicad/8.0:ro" \
     "${image}" /bin/bash -c "$cmd"
-
-    # --volume=/tmp/.X11-unix:/tmp/.X11-unix \
-    # --volume="/etc/group:/etc/group:ro" \
-    # --volume="/etc/passwd:/etc/passwd:ro" \
-    # --volume="/etc/shadow:/etc/shadow:ro" \

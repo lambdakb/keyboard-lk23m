@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "cc2e5dc5-f9f2-4fcb-992f-c424c3c2e216")
 	(paper "A4")
+	(title_block
+		(title "LK23M")
+		(date "2025-01-18")
+		(rev "v1.00")
+		(company "LambdaKB.dev")
+		(comment 1 "https://lambdakb.dev/devices/lk23m/")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -4801,6 +4808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "900ee3a1-f068-4ce8-9529-a92f8666f3b4")
 		)
@@ -4844,7 +4860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -4881,6 +4897,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -4956,6 +4981,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf89f3d8-9cd7-4051-a2e8-77268ed570e7")
 		)
@@ -4998,7 +5032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 151.13 40.64 0)
 			(effects
 				(font
@@ -5035,6 +5069,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 40.64 0)
 			(effects
 				(font
@@ -5085,7 +5128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 176.53 92.71 0)
 			(effects
 				(font
@@ -5122,6 +5165,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 176.53 92.71 0)
 			(effects
 				(font
@@ -5172,7 +5224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 163.83 92.71 0)
 			(effects
 				(font
@@ -5209,6 +5261,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 163.83 92.71 0)
 			(effects
 				(font
@@ -5285,6 +5346,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 171.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1efc3396-d871-443d-b3b1-c5232c720497")
 		)
@@ -5327,7 +5397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -5364,6 +5434,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -5415,7 +5494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -5452,6 +5531,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -5503,7 +5591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 163.83 40.64 0)
 			(effects
 				(font
@@ -5540,6 +5628,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 163.83 40.64 0)
 			(effects
 				(font
@@ -5590,7 +5687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -5627,6 +5724,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -5677,7 +5783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -5714,6 +5820,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -5789,6 +5904,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70a2271f-a8e6-41ac-bd0c-3195adaef3f8")
 		)
@@ -5848,6 +5972,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 158.75 36.83 0)
 			(effects
 				(font
@@ -5924,6 +6057,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2a25ee7-94b1-420f-b183-4f28ea964576")
 		)
@@ -5992,6 +6134,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "039ab420-3dcd-4cee-9918-31e2f05215d8")
 		)
@@ -6034,7 +6185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -6071,6 +6222,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -6139,6 +6299,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -6218,6 +6387,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "753b0f64-1129-4923-9753-26eb3a102344")
 		)
@@ -6261,7 +6439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 189.23 76.2 0)
 			(effects
 				(font
@@ -6298,6 +6476,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 189.23 76.2 0)
 			(effects
 				(font
@@ -6416,7 +6603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -6453,6 +6640,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -6523,6 +6719,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6664,6 +6869,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5f78963e-34d6-46cd-a5b7-a1b068b80685")
 		)
@@ -6731,6 +6945,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f6481d2-ede8-493c-bad8-262fd3752636")
 		)
@@ -6774,7 +6997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 163.83 125.73 0)
 			(effects
 				(font
@@ -6811,6 +7034,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 163.83 125.73 0)
 			(effects
 				(font
@@ -6888,6 +7120,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d069f00-5564-4778-8dc9-b2a3b426cb23")
 		)
@@ -6928,7 +7169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -6965,6 +7206,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -7041,6 +7291,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aaf9ae2c-d78d-4c1d-9fc0-604c8dd5c22a")
 		)
@@ -7084,7 +7343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 189.23 40.64 0)
 			(effects
 				(font
@@ -7121,6 +7380,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 189.23 40.64 0)
 			(effects
 				(font
@@ -7172,7 +7440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -7209,6 +7477,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -7286,6 +7563,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1eb08da5-4d51-4c39-a356-d992bb91d0dd")
 		)
@@ -7343,6 +7629,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -7410,6 +7705,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 158.75 121.92 0)
 			(effects
 				(font
@@ -7553,6 +7857,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfaa61a-e84f-4210-ad00-66aaab4a5015")
 		)
@@ -7592,7 +7905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -7629,6 +7942,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -7707,6 +8029,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 35.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "56263162-1226-46f2-99a2-9818546927a6")
 		)
@@ -7773,6 +8104,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -7917,6 +8257,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5763760-8d95-4ee8-8ffa-45e7a5cff22f")
 		)
@@ -7977,6 +8326,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -8052,6 +8410,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec184c8c-4f5d-4802-86f2-afbea96b74d9")
 		)
@@ -8112,6 +8479,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 85.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,6 +8575,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8772e511-f651-4bc5-93db-161c125cbc74")
 		)
@@ -8259,6 +8644,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 146.05 121.92 0)
 			(effects
 				(font
@@ -8335,6 +8729,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39ddaba9-f165-4622-98cd-78f7575f2fa2")
 		)
@@ -8376,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+		(property "Footprint" "LKBD_Common:SW_PUSH_1P1T_6x3.5mm"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -8395,6 +8798,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 38.1 93.98 0)
 			(effects
 				(font
@@ -8446,7 +8858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -8483,6 +8895,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -8665,7 +9086,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -8702,6 +9123,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -8753,7 +9183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -8790,6 +9220,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -8858,6 +9297,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -8936,6 +9384,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 97.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80ca9987-b7d3-48f2-a27e-a3fc427cadba")
 		)
@@ -9005,6 +9462,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f8f24e5-15f9-4da8-a50e-9edab2eeb242")
 		)
@@ -9045,7 +9511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 163.83 76.2 0)
 			(effects
 				(font
@@ -9082,6 +9548,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 163.83 76.2 0)
 			(effects
 				(font
@@ -9157,6 +9632,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c57f1f31-9153-4bcc-9c38-7aed9fbf682c")
 		)
@@ -9215,6 +9699,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -9398,7 +9891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -9435,6 +9928,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -9577,6 +10079,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60f94a56-b9d0-4640-9907-f5b744f53d2c")
 		)
@@ -9644,6 +10155,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "02ee19c9-9861-4e3c-943f-db5fa46b64ed")
 		)
@@ -9698,7 +10218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P7.62mm"
+		(property "Footprint" "LKBD_Common:Diode_SMD+THT_SOD123_DO35_P6.5mm"
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -9735,6 +10255,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -9805,6 +10334,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 97.79 96.52 0)
 			(effects
 				(font

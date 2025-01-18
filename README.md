@@ -14,33 +14,8 @@
 
 PCB has been designed using [KiCad EDA 8.0](https://www.kicad.org/).
 
-### Library Sources
-
-- 3D Model: [Kailh Hotswap MX v22.step](https://grabcad.com/library/kailh-hotswap-mx-1) by [Anthony Marin](https://grabcad.com/anthony.marin-2) Kailh MX Socket 3D Model [^GrabCAD]
-- 3D Model: [SW_PUSH-6X3,5_DIP.step](https://grabcad.com/library/tack-switch-tact-6x3-5-1) by [Yuri Motovilov](https://grabcad.com/yuri.motovilov-1) [^GrabCAD]
-- 3D Model: [SSD1306 OLED 128 x 32 Display Assembly.step](https://grabcad.com/library/128-x-32-oled-display-0-91-inch-i2c-1) by [Nelson Stoldt](https://grabcad.com/nelson.stoldt-1) [^GrabCAD]
-- 3D Model: [Adafruit KB2040 v7.step](https://grabcad.com/library/adafruit-kb2040-1) by [DeltaWhy](https://grabcad.com/deltawhy-1) [^GrabCAD]
-- 3D Model: [Stabilizer - close.step](https://grabcad.com/library/cherry-mx-stabilizer-mx-1) by [Kevin Yu](https://grabcad.com/kevin.yu-7) [^GrabCAD]
-
-[^GrabCAD]: Model originaly available on [GrabCAD.com](https://grabcad.com/library). Redistribution allowed through [their sharing policy](https://help.grabcad.com/article/246-how-can-models-be-used-and-shared) for public non-commercial projects. All rights reserved to their original creators, if you are one of them and would like your models removed, let me know.
-
-<!-- TODO: See https://github.com/siderakb/key-switches.pretty?tab=readme-ov-file before doing our own library ? -->
-
-## Firmware
-
-Firmware has been built using the [`vial` fork](https://github.com/vial-kb/vial-qmk) of [QMK](https://qmk.fm).
-
 ## License
 
 This design is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), which means it is free to use, share, and adapt for non-commercial purposes, as long as proper attribution is provided and any derivative works are shared under the same license.
 
 If you are a retailer or business interested in selling this design or products derived from it, I am open to granting commercial licenses on a case-by-case basis. Please feel free to contact us to discuss terms.
-
-## TODO
-
-- Read [SideraKB Research](https://siderakb.github.io/docs/research)
-- Checkout [KiBot](https://github.com/INTI-CMNB/KiBot)
-  - [IBoM Export](https://kibot.readthedocs.io/en/master/configuration/outputs/ibom.html)
-  - [Gerber Export](https://kibot.readthedocs.io/en/master/configuration/outputs/gerber.html)
-  - [KiCanvas Export](https://kibot.readthedocs.io/en/master/configuration/outputs/kicanvas.html) (doesn't look ready for prime time + current implementation works)
-  - Would be nice to be able to automate IBoM / Gerber / BoM / Positioning File generation with KiBot and have a Makefile under `pcb/` to handle standardized actions
