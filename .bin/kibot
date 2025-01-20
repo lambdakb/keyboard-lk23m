@@ -9,14 +9,10 @@ if [ -n "$1" ]; then
     cmd="$cmd $*"
 fi
 
-echo "Starting ${image} ..."
-export USER_ID=$(id -u)
-export GROUP_ID=$(id -g)
-
 docker run --rm -it \
-    --user "${USER_ID}:${GROUP_ID}" \
+    --user "$(id -u):$(id -g)" \
     --env NO_AT_BRIDGE=1 \
-    --workdir="${workdir}/pcb" \
+    --workdir="$(pwd)" \
     --volume="/etc/group:/etc/group:ro" \
     --volume="/etc/passwd:/etc/passwd:ro" \
     --volume="/etc/shadow:/etc/shadow:ro" \

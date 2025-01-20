@@ -524,7 +524,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -567,16 +567,34 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
+          "label": "LCSC Part #",
           "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Footprint",
+          "name": "JLC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Rotation Offset",
+          "name": "JLCRotOffset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Position Offset",
+          "name": "JLCPosOffset",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "JLC"
     },
     "connection_grid_size": 50.0,
     "drawing": {

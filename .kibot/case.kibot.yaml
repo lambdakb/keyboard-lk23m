@@ -1,0 +1,17 @@
+kibot:
+  version: 1
+
+import:
+  - file: configs/jlcpcb.kibot.yaml
+    outputs: ['jlcpcb_gbr', 'jlcpcb_drl', 'jlcpcb_zip']
+  - configs/pcbdraw.kibot.yaml
+
+outputs:
+  - name: case_dxf
+    comment: Board Outline DXF
+    type: dxf
+    dir: output/case/dxf
+    layers:
+      - Edge.Cuts
+    options:
+      output: "%f-outline.%x"
