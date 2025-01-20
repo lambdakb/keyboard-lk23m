@@ -1,6 +1,6 @@
 NAME	:= LK23M
 GITROOT	:= $(shell git rev-parse --show-toplevel)
-KIBOT	:= $(GITROOT)/.bin/kibot
+KIBOT	:= $(GITROOT)/.kibot/bin/kibot
 
 default: clean export
 
