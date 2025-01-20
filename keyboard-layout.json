@@ -51,15 +51,24 @@
     },
     "1\n\n\n\n1U",
     "2\n\n\n\n1U",
-    "3\n\n\n\n1U",
-    {
-      "h": 2
-    },
-    "<i class='kb kb-Return-2'></i>\n\n\n\n2U"
+    "3\n\n\n\n1U"
   ],
   [
+    {
+      "ry": 5.25
+    },
     "0\n\n\n\n1U",
     "00\n\n\n\n1U",
     ".\n\n\n\n1U"
+  ],
+  [
+    {
+      "r": 90,
+      "rx": 3,
+      "y": -1,
+      "x": -1,
+      "w": 2
+    },
+    "<i class='kb kb-Return-2'></i>\n\n\n\n2U"
   ]
 ]

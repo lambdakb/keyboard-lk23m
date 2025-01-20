@@ -6,13 +6,13 @@ default: clean export
 
 test:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/test.kibot.yaml -b ./pcb/lk23m.kicad_pcb
+	$(KIBOT) -c .kibot/test.kibot.yaml -b ./pcb/lk23m-pcb.kicad_pcb
 
 export: pcb case-fr4
 
 pcb:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/pcb.kibot.yaml -b ./pcb/lk23m.kicad_pcb
+	$(KIBOT) -c .kibot/pcb.kibot.yaml -b ./pcb/lk23m-pcb.kicad_pcb
 
 case-fr4:
 	$(info + [$(NAME)] $@)
