@@ -2,7 +2,7 @@
 
 [![Documentation](https://img.shields.io/badge/Documentation-Latest-brightgreen?style=for-the-badge&logo=docusaurus&logoColor=white)](https://lambdakb.dev/devices/lk23m)
 [![GitHub Release](https://img.shields.io/github/v/release/lambdakb/keyboard-lk23m?label=Release&style=for-the-badge&logo=github&logoColor=white)](https://github.com/lambdakb/keyboard-lk23m/releases/latest)
-[![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=for-the-badge&logo=creativecommons&logoColor=white)](/LICENSE)
+[![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=for-the-badge&logo=creativecommons&logoColor=white)](/LICENSE.md)
 [![KiCad](https://img.shields.io/badge/KiCad-v8-orange?style=for-the-badge&logo=kicad&logoColor=white&logoSize=auto)](https://www.kicad.org/)
 
 ## Layout
@@ -22,7 +22,6 @@
 [PCB Front]: output/img/lk23m-pcb-top.svg
 [PCB Back]: output/img/lk23m-pcb-bottom.svg
 
-<!-- TODO: add images -->
 The PCB has been designed in [KiCad EDA 8.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries and [`kbplacer`](https://github.com/adamws/kicad-kbplacer).
 
 You can preview the project files using [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Flambdakb%2Fkeyboard-lk23m%2Fblob%2Fmain%2Fpcb%2Flk23m-pcb.kicad_pro) directly in your browser and download the latest fabrication files for JLCPCB from the [latest release](https://github.com/lambdakb/keyboard-lk23m/releases/latest/).
@@ -48,6 +47,12 @@ You can also find their board outlines as `DXF` if you wish to fabricate them by
 
 ## License
 
-This design is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), which means it is free to use, share, and adapt for non-commercial purposes, as long as proper attribution is provided and any derivative works are shared under the same license.
+This design is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-If you are a retailer or business interested in selling this design or products derived from it, I am open to granting commercial licenses on a case-by-case basis. Please feel free to contact us to discuss terms.
+You are free to use, share, and adapt the design for non-commercial purposes, provided that:
+
+- **Attribution**: Proper credit must be given, a link to the license provided, and any changes indicated.
+- **NonCommercial**: The material cannot be used for commercial purposes without prior approval.
+- **ShareAlike**: Any derivative works must be distributed under the same license.
+
+If you are a retailer or business interested in selling this design or products derived from it, I am open to granting commercial licenses on a case-by-case basis. Please feel free to contact me to discuss terms.

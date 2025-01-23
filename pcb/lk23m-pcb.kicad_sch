@@ -3395,6 +3395,42 @@
 		(uuid "fe295702-e432-42fa-9827-c39ac69606c8")
 	)
 	(rectangle
+		(start 43.18 137.795)
+		(end 64.77 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10dca587-c057-463b-89c6-f297bdfa58b5)
+	)
+	(rectangle
+		(start 95.25 108.585)
+		(end 116.84 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14ea5dfc-4cf4-4572-ba41-19623d5dbc1d)
+	)
+	(rectangle
+		(start 95.25 137.795)
+		(end 116.84 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1711831d-94d5-4e0c-9823-9cb7cbfadd94)
+	)
+	(rectangle
 		(start 13.97 69.85)
 		(end 116.84 82.55)
 		(stroke
@@ -3407,7 +3443,7 @@
 		(uuid 19a7f900-44a0-42f9-bb3d-c6ddb29b39cf)
 	)
 	(rectangle
-		(start 95.885 79.375)
+		(start 95.25 79.375)
 		(end 116.84 82.55)
 		(stroke
 			(width 0)
@@ -3429,18 +3465,6 @@
 			(type none)
 		)
 		(uuid 21577942-7eec-44a3-bcef-ddfb80c78ead)
-	)
-	(rectangle
-		(start 43.815 120.015)
-		(end 64.77 123.19)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2cbaa36d-791e-45ee-81c8-e571eda49098)
 	)
 	(rectangle
 		(start 13.97 13.97)
@@ -3467,7 +3491,19 @@
 		(uuid 5494333a-5e11-412d-8f12-9325bd81d442)
 	)
 	(rectangle
-		(start 43.815 97.155)
+		(start 43.18 120.015)
+		(end 64.77 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a9ddae3-4017-47e5-9341-fa0aba837a3f)
+	)
+	(rectangle
+		(start 43.18 97.155)
 		(end 64.77 100.33)
 		(stroke
 			(width 0)
@@ -3476,10 +3512,10 @@
 		(fill
 			(type none)
 		)
-		(uuid 5e3be34a-ec77-41ba-bc76-15f7f27930b1)
+		(uuid 6a035e9b-2f88-43d2-9a6b-f59306969600)
 	)
 	(rectangle
-		(start 188.595 137.795)
+		(start 187.96 137.795)
 		(end 209.55 140.97)
 		(stroke
 			(width 0)
@@ -3488,19 +3524,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6a050b55-3eb4-4316-bf1a-52734df5600c)
-	)
-	(rectangle
-		(start 43.815 137.795)
-		(end 64.77 140.97)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7c081e4d-7083-4026-befa-dc7c20af5a53)
+		(uuid 7ebb7c03-a975-4bd6-bcaf-dabfab558e0c)
 	)
 	(rectangle
 		(start 13.97 124.46)
@@ -3515,18 +3539,6 @@
 		(uuid 99f66cfd-483e-43e9-822b-2b5a5ed32221)
 	)
 	(rectangle
-		(start 95.885 137.795)
-		(end 116.84 140.97)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9d406cc7-e4b0-414b-a557-396126d9e0a6)
-	)
-	(rectangle
 		(start 13.97 83.82)
 		(end 64.77 100.33)
 		(stroke
@@ -3539,19 +3551,7 @@
 		(uuid 9f6f9fba-5618-4254-a9b2-f09c031fe86f)
 	)
 	(rectangle
-		(start 95.885 108.585)
-		(end 116.84 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b071c547-9cf9-4fb6-bbf5-8b4f529e3a7d)
-	)
-	(rectangle
-		(start 95.885 65.405)
+		(start 95.25 65.405)
 		(end 116.84 68.58)
 		(stroke
 			(width 0)
@@ -3588,7 +3588,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 106.68 81.28 0)
+		(at 106.045 81.28 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3596,9 +3596,9 @@
 		)
 		(uuid "195f8c5d-0bc2-4c6f-adec-d980092846ef")
 	)
-	(text "OLED Screen"
+	(text "OLED Screen (I²C)"
 		(exclude_from_sim no)
-		(at 54.61 139.7 0)
+		(at 53.975 139.7 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3608,7 +3608,7 @@
 	)
 	(text "Reset Button"
 		(exclude_from_sim no)
-		(at 54.61 99.06 0)
+		(at 53.975 99.06 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3628,7 +3628,7 @@
 	)
 	(text "Right Encoder"
 		(exclude_from_sim no)
-		(at 106.68 139.7 0)
+		(at 106.045 139.7 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3638,7 +3638,7 @@
 	)
 	(text "Left Encoder"
 		(exclude_from_sim no)
-		(at 106.68 110.49 0)
+		(at 106.045 110.49 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3669,7 +3669,7 @@
 	)
 	(text "Battery Connector"
 		(exclude_from_sim no)
-		(at 54.61 121.92 0)
+		(at 53.975 121.92 0)
 		(effects
 			(font
 				(size 1.2 1.2)
