@@ -15,12 +15,14 @@
 
 ## PCB
 
-|    Front     |    Back     |
-| :----------: | :---------: |
-| ![PCB Front] | ![PCB Back] |
+|             Front             |            Back             |
+| :---------------------------: | :-------------------------: |
+| [![PCB Front]][PCB Front PNG] | [![PCB Back]][PCB Back PNG] |
 
 [PCB Front]: output/img/lk23m-pcb-top.svg
+[PCB Front PNG]: output/img/lk23m-pcb-top.png
 [PCB Back]: output/img/lk23m-pcb-bottom.svg
+[PCB Back PNG]: output/img/lk23m-pcb-bottom.png
 
 The PCB has been designed in [KiCad EDA 8.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries and [`kbplacer`](https://github.com/adamws/kicad-kbplacer).
 
@@ -32,12 +34,14 @@ The exported schematic is also available under [`output/schematics`](output/sche
 
 ### FR4
 
-|    Plate     |    Bottom     |
-| :----------: | :-----------: |
-| ![FR4 Plate] | ![FR4 Bottom] |
+|             Plate             |             Bottom              |
+| :---------------------------: | :-----------------------------: |
+| [![FR4 Plate]][FR4 Plate PNG] | [![FR4 Bottom]][FR4 Bottom PNG] |
 
 [FR4 Plate]: output/img/lk23m-plate-top.svg
+[FR4 Plate PNG]: output/img/lk23m-plate-top.png
 [FR4 Bottom]: output/img/lk23m-bottom-bottom.svg
+[FR4 Bottom PNG]: output/img/lk23m-bottom-bottom.png
 
 The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate. You can find their respective fabrication files for JLCPCB in [`output/fabrication/jlcpcb`](output/fabrication/jlcpcb/).
 
