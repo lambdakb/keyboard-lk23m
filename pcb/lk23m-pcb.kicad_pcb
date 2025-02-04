@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "LK23M")
-		(date "2025-01-18")
+		(date "2025-01-23")
 		(rev "v1.00")
 		(company "LambdaKB.dev")
 		(comment 1 "https://lambdakb.dev/devices/lk23m/")
@@ -32771,6 +32771,38 @@
 	(dimension
 		(type aligned)
 		(layer "Cmts.User")
+		(uuid "29440b70-ef48-444b-9518-4715b89a7356")
+		(pts
+			(xy 106.2 149.0625) (xy 30 149.0625)
+		)
+		(height -8.5375)
+		(gr_text "76.2 mm"
+			(at 68.1 157.6 0)
+			(layer "Cmts.User")
+			(uuid "29440b70-ef48-444b-9518-4715b89a7356")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4) suppress_zeroes)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 1)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
 		(uuid "2a6639fd-0102-4ea6-b3a0-b1a2959f2b7c")
 		(pts
 			(xy 72.65 29.999999) (xy 57.4 29.999999)
@@ -32940,6 +32972,38 @@
 			(at 111.2 91.9125 90)
 			(layer "Cmts.User")
 			(uuid "d54e2741-c149-4e5c-9286-105b411bf5c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4) suppress_zeroes)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 1)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "d6408e2c-5f12-4001-adc4-7965606fa3f7")
+		(pts
+			(xy 106.2 30) (xy 106.2 149.0625)
+		)
+		(height -8.6)
+		(gr_text "119.0625 mm"
+			(at 114.8 89.53125 90)
+			(layer "Cmts.User")
+			(uuid "d6408e2c-5f12-4001-adc4-7965606fa3f7")
 			(effects
 				(font
 					(size 1 1)

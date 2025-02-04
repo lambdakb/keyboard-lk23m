@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LK23M")
-		(date "2025-01-18")
+		(date "2025-01-23")
 		(rev "v1.00")
 		(company "LambdaKB.dev")
 		(comment 1 "https://lambdakb.dev/devices/lk23m/")
