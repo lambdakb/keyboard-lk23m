@@ -25,10 +25,8 @@ Here is the list of supported variations:
 
 This allows for a number of configuration on the extra top row that can be used for a number of things. Each of these variations are supported in the Vial firmware under the `Layout` tab. See [Vial Layout Options](#vial-layout-options) for more details.
 
-### Examples
-
-| Macropad            | Media Keys            | OLED + Volume            | OLED + 2 Encoders            |
-| ------------------- | --------------------- | ------------------------ | ---------------------------- |
+|    Example `#1`     |     Example `#2`      |       Example `#3`       |         Example `#4`         |
+| :-----------------: | :-------------------: | :----------------------: | :--------------------------: |
 | ![Example Macropad] | ![Example Media Keys] | ![Example OLED + Volume] | ![Example OLED + 2 Encoders] |
 
 [Example Macropad]: assets/vial-macropad.png
