@@ -13,6 +13,78 @@
 
 <!-- TODO: Add alternate layout and store layout file for future vial inclusion -->
 
+### Variations
+
+This keyboard has been designed as a standalone numpad with an extra top row to be used as a macro pad or media pad, as such, it can be configured in different ways when building it.
+
+Here is the list of supported variations:
+
+- Optional encoder on the top left key
+- Optional encoder on the top right key
+- The top two center keys can be replaced by a 0.91" OLED screen
+
+This allows for a number of configuration on the extra top row that can be used for a number of things. Each of these variations are supported in the Vial firmware under the `Layout` tab. See [Vial Layout Options](#vial-layout-options) for more details.
+
+### Examples
+
+| Macropad            | Media Keys            | OLED + Volume            | OLED + 2 Encoders            |
+| ------------------- | --------------------- | ------------------------ | ---------------------------- |
+| ![Example Macropad] | ![Example Media Keys] | ![Example OLED + Volume] | ![Example OLED + 2 Encoders] |
+
+[Example Macropad]: assets/vial-macropad.png
+[Example Media Keys]: assets/vial-mediapad.png
+[Example OLED + Volume]: assets/vial-oled-volume.png
+[Example OLED + 2 Encoders]: assets/vial-oled-knobs.png
+
+<!-- TODO: Create a diagram of things that can be installed or not like the lotus 58 https://raw.githubusercontent.com/4EBOOT/Lotus58/Glow/Glow/Image/layout_variations.png  -->
+<!-- TODO: In firmware show all options and what they do in a table -->
+
+## BOM
+
+| Part                   | Ref.                                                                                 | Quantity | Optional | Remarks                                                                                                                                                              |
+| ---------------------- | ------------------------------------------------------------------------------------ | :------: | :------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PCB                    | [LK23M v1.00 PCB](#pcb)                                                              |    1     |    ❌    | See [PCB](#pcb) section for more info.                                                                                                                               |
+| Top Plate              | [FR4 Top Plate](#fr4)                                                                |    1     |    ✅    | Optional if using an alternative case.                                                                                                                               |
+| Bottom Plate           | [FR4 Bottom Plate](#fr4)                                                             |    1     |    ✅    | Optional if using an alternative case.                                                                                                                               |
+| Case Screws            | [M2 × 4 mm Low Profile Socket Head Screw (Hex)]                                      |    8     |    ✅    | Optional if using an alternative case. Low profile hex head screws are recommended, but any will work. Screws up to 8 mm in length should work.                      |
+| Case Standoffs         | [M2 × 12 mm Brass Hex Standoff]                                                      |    4     |    ✅    | Optional if using an alternative case. Longer / shorter standoff could work depending on how the controller is mounted and if using a battery.                       |
+| Pro Micro Controller   | [Arduino Pro Micro 5V], [Adafruit KB2040] or [nice!nano]                             |    1     |    ❌    | Supports various Pro Micro style controller (including RP2040 based ones) as well as the nice!nano for wireless builds. [^wireless]                                  |
+| MCU Socket             | [DIP-24 Round Socket (Wide, 15.24 mm)]                                               |    1     |    ✅    | Recommended to socket the controller, can be omitted if soldered directly.                                                                                           |
+| 1N418 Diodes           | [1N4148W T4 SOD-323] (SMD) or [1N4148 DO-35] (THT)                                   |  21-23   |    ❌    | Only 21 diodes are needed if the OLED screen is installed.                                                                                                           |
+| Kailh Hot-Swap Sockets | [CPG151101S11-16] (SMD)                                                              |    19    |    ✅    | The top 4 keys can not be made hot-swappable due to size constraint and need to be soldered directly. All switches can be soldered directly to the PCB if preferred. |
+| Key Switches           | Any [Cherry MX] Compatible Wwitch                                                    |  19-23   |    ❌    | Amount depends on the variant built, a two encoder OLED setup would require 2 EC12 encoder and 19 MX switches, while the key switches only variant needs 23.         |
+| Rotary Encoder(s)      | Any [EC11] / [EC12] style 5-pin Encoder                                              |   0-2    |    ✅    | Optional, can be installed in place of the top left and/or top right most switches.                                                                                  |
+| 100nF Capacitor(s)     | [1206 SMD Ceramic Capacitor] (SMD) or [104 Ceramic Disk Capacitor (5 × 2.5mm)] (THT) |   0-4    |    ✅    | Two recommended per encoder for noise filtering.                                                                                                                     |
+| Reset Push Button      | [DIP 2pin Momentary Push Button (6 × 3.5 mm)]] (THT)                                 |    1     |    ✅    | Used as a reset switch, can be omitted if you flash the controller before installing it or if the controller can be put in bootloader mode from any other means.     |
+| 0.91" OLED Display     | [SSD1306 0.91" 128X32 OLED I²C Display Module]                                       |   0-1    |    ✅    | Optional, replace the top middle two switches.                                                                                                                       |
+| Power Slide Switch     | [PCM12SMTR] (SMD) or [MSK-12C02] (SMD)                                               |    1     |    ✅    | Only required for battery powered wireless builds. [^wireless]                                                                                                       |
+| Battery Connector      | [JST-PH 2pin right-angle Male Connector]                                             |    1     |    ✅    | Only needed for battery powered wireless builds if the battery is not soldered directly to the board (recommended). [^wireless]                                      |
+
+<!-- TODO: Add links to datasheet / parts / aliexpress -->
+<!-- NOTE: should we create a separate BOM for the case if we provide two different case ? -->
+
+[M2 × 4 mm Low Profile Socket Head Screw (Hex)]: https://www.aliexpress.com/item/4001072025844.html
+[M2 × 12 mm Brass Hex Standoff]: https://www.aliexpress.com/item/1005006049595637.html
+[Arduino Pro Micro 5V]: https://www.sparkfun.com/pro-micro-5v-16mhz.html
+[Adafruit KB2040]: https://www.adafruit.com/product/5302
+[nice!nano]: https://nicekeyboards.com/nice-nano/
+[DIP-24 Round Socket (Wide, 15.24 mm)]: https://www.aliexpress.com/item/1005005770166098.html
+[1N4148W T4 SOD-323]: https://www.aliexpress.com/item/1005006127619725.html
+[1N4148 DO-35]: https://www.aliexpress.com/item/4000142272546.html
+[CPG151101S11-16]: https://www.aliexpress.com/item/1005007052649640.html
+[Cherry MX]: https://www.aliexpress.com/item/1005006255961111.html
+[EC11]: https://www.aliexpress.com/item/32382989585.html
+[EC12]: https://www.aliexpress.com/item/1005005196870256.html
+[1206 SMD ceramic capacitor]: https://www.aliexpress.com/item/32966490820.html
+[104 Ceramic Disk Capacitor (5 × 2.5mm)]: https://www.aliexpress.com/item/32971478818.html
+[DIP 2pin Momentary Push Button (6 × 3.5 mm)]: https://www.aliexpress.com/item/1005001849576755.html
+[SSD1306 0.91" 128X32 OLED I²C Display Module]: https://www.aliexpress.com/item/32777216785.html
+[PCM12SMTR]: https://www.digikey.com/en/products/detail/c-k/PCM12SMTR/1640112
+[MSK-12C02]: https://www.aliexpress.com/item/4000685483225.html
+[JST-PH 2pin right-angle Male Connector]: https://www.aliexpress.com/item/1005004955655144.html
+
+[^wireless]: Wireless variant requires a controller that provides power input and a charging circuit between the top RAW and GND such as the `nice!nano`. The PCB provides a way to attach a JST-PH connector as well as a slide switch to power management. The slide switch must be set to ON for the charging circuit to work.
+
 ## PCB
 
 |             Front             |            Back             |
@@ -48,6 +120,21 @@ The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) a
 You can also find their board outlines as `DXF` if you wish to fabricate them by any other mean (such as laser cut acrylic) in [`output/case/dxf`](output/case/dxf).
 
 <!-- TODO: Link to documentation and put just the minimum needed things here -->
+
+## Firmware
+
+### Vial Layout Options
+
+| Default           | Disable Left Encoder           | Disable Right Encoder           | OLED Screen in Center           |
+| ----------------- | ------------------------------ | ------------------------------- | ------------------------------- |
+| ![Layout Default] | ![Layout Disable Left Encoder] | ![Layout Disable Right Encoder] | ![Layout OLED Screen in Center] |
+
+[Layout Default]: assets/vial-layout-default.png
+[Layout Disable Left Encoder]: assets/vial-layout-left-encoder.png
+[Layout Disable Right Encoder]: assets/vial-layout-right-encoder.png
+[Layout OLED Screen in Center]: assets/vial-layout-oled-screen.png
+
+Each of these options can be combined to match the physical layout of your build.
 
 ## License
 
