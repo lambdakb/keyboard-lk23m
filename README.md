@@ -34,8 +34,18 @@ This allows for a number of configuration on the extra top row that can be used 
 [Example OLED + Volume]: assets/vial-oled-volume.png
 [Example OLED + 2 Encoders]: assets/vial-oled-knobs.png
 
+This PCB can also be built as a wireless keyboard using a nice!nano microcontroller. See
+
 <!-- TODO: Create a diagram of things that can be installed or not like the lotus 58 https://raw.githubusercontent.com/4EBOOT/Lotus58/Glow/Glow/Image/layout_variations.png  -->
 <!-- TODO: In firmware show all options and what they do in a table -->
+
+### Wireless Support
+
+The wireless variant of this keyboard requires a controller that provides power input and a charging circuit between the top RAW and GND such as the `nice!nano`.
+
+The PCB itself provides a way to attach a JST-PH connector as well as a slide switch for power management. This slide switch must be set to ON for the charging circuit to work.
+
+This hasn't been extensively tested yet and should be considered experimental (no wireless firmware will be provided for now). The feature was added to the PCB as way for us to prototype a potential wireless keyboard.
 
 ## BOM
 
@@ -81,7 +91,7 @@ This allows for a number of configuration on the extra top row that can be used 
 [MSK-12C02]: https://www.aliexpress.com/item/4000685483225.html
 [JST-PH 2pin right-angle Male Connector]: https://www.aliexpress.com/item/1005004955655144.html
 
-[^wireless]: Wireless variant requires a controller that provides power input and a charging circuit between the top RAW and GND such as the `nice!nano`. The PCB provides a way to attach a JST-PH connector as well as a slide switch to power management. The slide switch must be set to ON for the charging circuit to work.
+[^wireless]: See [Wireless Support](#wireless-support) for more details about how it can be achieved.
 
 ## PCB
 
