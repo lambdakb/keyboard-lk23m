@@ -4,6 +4,7 @@ kibot:
 import:
   - file: configs/jlcpcb.kibot.yaml
     outputs: ['jlcpcb_gbr', 'jlcpcb_drl', 'jlcpcb_zip']
+    # NOTE: Can we specific a different output folder ? would be better under ouput/case/jlcpcb
   - configs/pcbdraw.kibot.yaml
 
 outputs:

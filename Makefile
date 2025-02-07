@@ -16,8 +16,10 @@ pcb:
 
 case-fr4:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/lk23m-plate.kicad_pcb
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/lk23m-bottom.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/enig/lk23m-plate-enig.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/enig/lk23m-bottom-enig.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/silk/lk23m-plate-silk.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/silk/lk23m-bottom-silk.kicad_pcb
 
 clean:
 	$(info + [$(NAME)] $@)
