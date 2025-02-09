@@ -114,7 +114,7 @@ The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) a
 
 The case is available in two variations: [`silk`](case/fr4/silk/) and [`enig`](case/fr4/enig/). The only difference between the two is how the decorative pattern is shown, the `silk` variant sets it up as part of the silkscreen while the `enig` variant shows it as solder mask.
 
-The `enig` version is only suitable when using an immersion based surface finish such as "ENIG" and shouldn't be ordered with any "HASL" surface finish, use the `silk` variant instead. Otherwise, use the same parameters present in [PCB Order](README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself.
+The `enig` version is only suitable when using an immersion based surface finish such as "ENIG" and shouldn't be ordered with any "HASL" surface finish, use the `silk` variant instead. Otherwise, use the same parameters present in [PCB Order](./README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself.
 
 You can also find their board outlines as `DXF` if you wish to fabricate them by any other mean (such as laser cut acrylic) in [`output/case/dxf`](output/case/dxf).
 
@@ -122,9 +122,9 @@ You can also find their board outlines as `DXF` if you wish to fabricate them by
 
 | Part                   | Ref.                                                                                 | Quantity | Optional | Remarks                                                                                                                                                              |
 | ---------------------- | ------------------------------------------------------------------------------------ | :------: | :------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PCB                    | [LK23M PCB](README.md#pcb)                                                           |    1     |    ❌    | See [PCB](README.md#pcb) section on how to order it.                                                                                                                 |
-| Top Plate              | [FR4 Top Plate](README.md#fr4)                                                       |    1     |    ✅    | Optional if using an alternative case.                                                                                                                               |
-| Bottom Plate           | [FR4 Bottom Plate](README.md#fr4)                                                    |    1     |    ✅    | Optional if using an alternative case.                                                                                                                               |
+| PCB                    | [LK23M PCB](./README.md#pcb)                                                         |    1     |    ❌    | See [PCB](./README.md#pcb) section on how to order it.                                                                                                               |
+| Top Plate              | [FR4 Top Plate](./README.md#fr4)                                                     |    1     |    ✅    | Optional if using an alternative case.                                                                                                                               |
+| Bottom Plate           | [FR4 Bottom Plate](./README.md#fr4)                                                  |    1     |    ✅    | Optional if using an alternative case.                                                                                                                               |
 | Case Screws            | [M2 × 4 mm Low Profile Socket Head Screw (Hex)]                                      |    8     |    ✅    | Optional if using an alternative case. Low profile hex head screws are recommended, but any head type should be compatible. Screws up to 8 mm in length should work. |
 | Case Standoffs         | [M2 × 12 mm Brass Hex Standoff]                                                      |    4     |    ✅    | Optional if using an alternative case. Longer / shorter standoff could work depending on how the controller is mounted and if using a battery.                       |
 | Pro Micro Controller   | [Arduino Pro Micro 5V], [Adafruit KB2040] or [nice!nano]                             |    1     |    ❌    | Supports various Pro Micro style controller (including RP2040 based ones) as well as the nice!nano for wireless builds. [^wireless]                                  |
@@ -167,7 +167,7 @@ You can also find their board outlines as `DXF` if you wish to fabricate them by
 [603449 (1100 mAh)]: https://amzn.eu/d/e3uVbqB
 [503450 (1000 mAh)]: https://aliexpress.com/item/1005003198563309.html
 
-[^wireless]: See [Wireless Support](README.md#wireless-support) for more details.
+[^wireless]: See [Wireless Support](./README.md#wireless-support) for more details.
 
 ## Firmware
 
