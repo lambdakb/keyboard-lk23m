@@ -1,0 +1,61 @@
+# Electrow Fabrication Files
+# Reference: https://www.youtube.com/watch?v=LvsxkDRacBw
+# Reference: https://github.com/INTI-CMNB/KiBot/blob/ff2c6ff9bd64d3941268876bdf301001cc8290bd/kibot/resources/config_templates/Elecrow.kibot.yaml
+
+kibot:
+  version: 1
+
+outputs:
+  - name: elecrow_gbr
+    comment: Gerbers compatible with Elecrow
+    type: gerber
+    dir: fabrication/elecrow/gerbers
+    options: &gerber_options
+      exclude_edge_layer: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: false
+      uppercase_extensions: true
+      subtract_mask_from_silk: true # Ensure no silkscreen on pads
+      inner_extension_pattern: '.g%n'
+      edge_cut_extension: '.gml'
+      output: "%f.%x"
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: elecrow_drl
+    comment: Drill files compatible with Elecrow
+    type: excellon
+    dir: fabrication/elecrow/gerbers
+    options:
+      pth_and_npth_single_file: false
+      metric_units: true
+      pth_id: ''
+      npth_id: '-NPTH'
+      output: "%f%i.TXT"
+
+  - name: elecrow_zip
+    comment: ZIP file for elecrow
+    type: compress
+    dir: fabrication/elecrow
+    options:
+      move_files: true
+      output: "%f_gerber_elecrow.%x"
+      files:
+        - from_output: elecrow_gbr
+          dest: /
+        - from_output: elecrow_drl
+          dest: /
