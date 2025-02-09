@@ -14,15 +14,25 @@ pcb:
 	$(info + [$(NAME)] $@)
 	$(KIBOT) -c .kibot/pcb.kibot.yaml -b ./pcb/lk23m-pcb.kicad_pcb
 
-case-fr4:
+case-fr4: case-fr4-silk case-fr4-enig case-fr4-dxf
+
+case-fr4-silk:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/enig/lk23m-plate-enig.kicad_pcb
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/enig/lk23m-bottom-enig.kicad_pcb
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/silk/lk23m-plate-silk.kicad_pcb
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/silk/lk23m-bottom-silk.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/silk -b ./case/fr4/silk/lk23m-plate-silk.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/silk -b ./case/fr4/silk/lk23m-bottom-silk.kicad_pcb
+
+case-fr4-enig:
+	$(info + [$(NAME)] $@)
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/enig -b ./case/fr4/enig/lk23m-plate-enig.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/enig -b ./case/fr4/enig/lk23m-bottom-enig.kicad_pcb
+
+case-fr4-dxf:
+	$(info + [$(NAME)] $@)
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/enig/lk23m-plate-enig.kicad_pcb case_dxf
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/enig/lk23m-bottom-enig.kicad_pcb case_dxf
 
 clean:
 	$(info + [$(NAME)] $@)
 	rm -rf output/
 
-.PHONY: default test export pcb case-fr4 clean
+.PHONY: default test export pcb case-fr4 case-fr4-silk case-fr4-enig case-fr4-dxf clean

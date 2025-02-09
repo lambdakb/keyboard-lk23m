@@ -42,10 +42,10 @@ This PCB can also be built as a wireless keyboard using a nice!nano microcontrol
 | :---------------------------: | :-------------------------: |
 | [![PCB Front]][PCB Front PNG] | [![PCB Back]][PCB Back PNG] |
 
-[PCB Front]: output/img/lk23m-pcb-top.svg
-[PCB Front PNG]: output/img/lk23m-pcb-top.png
-[PCB Back]: output/img/lk23m-pcb-bottom.svg
-[PCB Back PNG]: output/img/lk23m-pcb-bottom.png
+[PCB Front]: output/pcb/img/lk23m-pcb-top.svg
+[PCB Front PNG]: output/pcb/img/lk23m-pcb-top.png
+[PCB Back]: output/pcb/img/lk23m-pcb-bottom.svg
+[PCB Back PNG]: output/pcb/img/lk23m-pcb-bottom.png
 
 The PCB has been designed in [KiCad EDA 8.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries and [`kbplacer`](https://github.com/adamws/kicad-kbplacer).
 
@@ -101,22 +101,20 @@ Serial numbers are based on the current date using the `YYMM01` format for its i
 | :---------------------------: | :-----------------------------: | :-----------------------------: | :-------------------------------: |
 | [![FR4 Plate]][FR4 Plate PNG] | [![FR4 Bottom]][FR4 Bottom PNG] | [![ENIG Plate]][ENIG Plate PNG] | [![ENIG Bottom]][ENIG Bottom PNG] |
 
-[FR4 Plate]: output/img/lk23m-plate-silk-top.svg
-[FR4 Plate PNG]: output/img/lk23m-plate-silk-top.png
-[FR4 Bottom]: output/img/lk23m-bottom-silk-bottom.svg
-[FR4 Bottom PNG]: output/img/lk23m-bottom-silk-bottom.png
-[ENIG Plate]: output/img/lk23m-plate-enig-top.svg
-[ENIG Plate PNG]: output/img/lk23m-plate-enig-top.png
-[ENIG Bottom]: output/img/lk23m-bottom-enig-bottom.svg
-[ENIG Bottom PNG]: output/img/lk23m-bottom-enig-bottom.png
+[FR4 Plate]: output/case/silk/img/lk23m-plate-silk-top.svg
+[FR4 Plate PNG]: output/case/silk/img/lk23m-plate-silk-top.png
+[FR4 Bottom]: output/case/silk/img/lk23m-bottom-silk-bottom.svg
+[FR4 Bottom PNG]: output/case/silk/img/lk23m-bottom-silk-bottom.png
+[ENIG Plate]: output/case/enig/img/lk23m-plate-enig-top.svg
+[ENIG Plate PNG]: output/case/enig/img/lk23m-plate-enig-top.png
+[ENIG Bottom]: output/case/enig/img/lk23m-bottom-enig-bottom.svg
+[ENIG Bottom PNG]: output/case/enig/img/lk23m-bottom-enig-bottom.png
 
-The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate. You can find their respective fabrication files for JLCPCB in [`output/fabrication/jlcpcb`](output/fabrication/jlcpcb/).
+The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate. It is available in two variations: [`silk`](case/fr4/silk/) and [`enig`](case/fr4/enig/). The only difference between the two is how the decorative pattern is shown, the `silk` variant sets it up as part of the silkscreen while the `enig` variant shows it as solder mask.
 
-The case is available in two variations: [`silk`](case/fr4/silk/) and [`enig`](case/fr4/enig/). The only difference between the two is how the decorative pattern is shown, the `silk` variant sets it up as part of the silkscreen while the `enig` variant shows it as solder mask.
+The `enig` version is only suitable when using an immersion based surface finish such as "ENIG" and shouldn't be ordered with any "HASL" surface finish, use the `silk` variant instead. Otherwise, use the same parameters present in [PCB Order](./README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself. You can find their respective fabrication files in [`output/case/silk/fabrication/jlcpcb`](output/case/silk/fabrication/jlcpcb/) and [`output/case/enig/fabrication/jlcpcb`](output/case/enig/fabrication/jlcpcb/).
 
-The `enig` version is only suitable when using an immersion based surface finish such as "ENIG" and shouldn't be ordered with any "HASL" surface finish, use the `silk` variant instead. Otherwise, use the same parameters present in [PCB Order](./README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself.
-
-You can also find their board outlines as `DXF` if you wish to fabricate them by any other mean (such as laser cut acrylic) in [`output/case/dxf`](output/case/dxf).
+If you prefer to fabricate them by any other mean (such as laser cut acrylic), you can download their board outlines as `DXF` in [`output/case/dxf`](output/case/dxf).
 
 ## BOM
 
