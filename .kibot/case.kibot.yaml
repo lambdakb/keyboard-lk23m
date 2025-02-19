@@ -23,3 +23,6 @@ outputs:
     run_by_default: false
     options:
       output: "%f-outline.%x"
+      metric_units: true
+      exclude_edge_layer: true
+      polygon_mode: false
