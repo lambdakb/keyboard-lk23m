@@ -76,4 +76,4 @@ Temporary Items
 ### Project Specific
 
 /output/test/
-/output/fabrication/*/gerbers/
+/output/**/fabrication/*/gerbers/

@@ -51,28 +51,23 @@ outputs:
       pth_and_npth_single_file: false
       pth_id: "-PTH"
       npth_id: "-NPTH"
-      map:
-        output: '%f%i%I%v.%x'
-        type: gerber
       metric_units: true
       route_mode_for_oval_holes: false
       output: "%f%i.%x"
 
-  # NOTE: This creates a single drill map for PTH and NPTH holes instead of two
-  # NOTE: It requires the `generate_drill_files` option whish isnt yet available.
-  # NOTE: Once available (on next kibot release), uncomment it and and remove the `map:` parameter from `jlcpcb_drl`
-  # - name: jlcpcb_drl_map
-  #   comment: Drill files compatible with JLCPCB
-  #   type: excellon
-  #   dir: fabrication/jlcpcb/gerbers
-  #   options:
-  #     generate_drill_files: false
-  #     pth_and_npth_single_file: true
-  #     map:
-  #       output: '%f-%i%I%v.%x'
-  #       type: gerber
-  #     route_mode_for_oval_holes: false
-  #     output: "%f-%i.%x"
+  # This creates a single drill map gerber layer for PTH and NPTH holes instead of two
+  - name: jlcpcb_drl_map
+    comment: Drill files compatible with JLCPCB
+    type: excellon
+    dir: fabrication/jlcpcb/gerbers
+    options:
+      generate_drill_files: false
+      pth_and_npth_single_file: true
+      map:
+        output: '%f-%i%I%v.%x'
+        type: gerber
+      route_mode_for_oval_holes: false
+      output: "%f-%i.%x"
 
   - name: jlcpcb_zip
     comment: ZIP file for JLCPCB
@@ -86,8 +81,8 @@ outputs:
           dest: /
         - from_output: jlcpcb_drl
           dest: /
-        # - from_output: jlcpcb_drl_map
-        #   dest: /
+        - from_output: jlcpcb_drl_map
+          dest: /
 
   - name: jlcpcb_cpl
     comment: "Pick and place file, JLCPCB style"
