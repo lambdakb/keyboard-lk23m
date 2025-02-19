@@ -1,18 +1,25 @@
 kibot:
   version: 1
 
+global:
+  out_dir: output/case
+
 import:
   - file: configs/jlcpcb.kibot.yaml
-    outputs: ['jlcpcb_gbr', 'jlcpcb_drl', 'jlcpcb_zip']
-    # NOTE: Can we specific a different output folder ? would be better under ouput/case/jlcpcb
-  - configs/pcbdraw.kibot.yaml
+    outputs: ['jlcpcb_gbr', 'jlcpcb_drl', 'jlcpcb_drl_map', 'jlcpcb_zip']
+  # - file: configs/pcbway.kibot.yaml
+  #   outputs: ['pcbway_gbr', 'pcbway_drl', 'pcbway_zip']
+  # - file: configs/elecrow.kibot.yaml
+  #   outputs: ['elecrow_gbr', 'elecrow_drl', 'elecrow_zip']
+  # - file: configs/pcbdraw.kibot.yaml
 
 outputs:
   - name: case_dxf
     comment: Board Outline DXF
     type: dxf
-    dir: output/case/dxf
+    dir: dxf
     layers:
       - Edge.Cuts
+    run_by_default: false
     options:
       output: "%f-outline.%x"

@@ -1,10 +1,17 @@
 kibot:
   version: 1
 
+global:
+  out_dir: output/pcb
+
 import:
   - file: configs/jlcpcb.kibot.yaml
     outputs: all
     filters: all
+  # - file: configs/pcbway.kibot.yaml
+  #   outputs: all
+  # - file: configs/elecrow.kibot.yaml
+  #   outputs: all
   - configs/pcbdraw.kibot.yaml
   - configs/ibom.kibot.yaml
   - configs/pdfsch.kibot.yaml
