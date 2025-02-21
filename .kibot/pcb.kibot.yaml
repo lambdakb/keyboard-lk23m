@@ -15,3 +15,4 @@ import:
   - configs/pcbdraw.kibot.yaml
   - configs/ibom.kibot.yaml
   - configs/pdfsch.kibot.yaml
+  - configs/3dexport.kibot.yaml

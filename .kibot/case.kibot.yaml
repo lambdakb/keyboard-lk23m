@@ -11,7 +11,8 @@ import:
   #   outputs: ['pcbway_gbr', 'pcbway_drl', 'pcbway_zip']
   # - file: configs/elecrow.kibot.yaml
   #   outputs: ['elecrow_gbr', 'elecrow_drl', 'elecrow_zip']
-  - file: configs/pcbdraw.kibot.yaml
+  - configs/pcbdraw.kibot.yaml
+  - configs/3dexport.kibot.yaml
 
 outputs:
   - name: case_dxf
@@ -22,7 +23,7 @@ outputs:
       - Edge.Cuts
     run_by_default: false
     options:
-      output: "%f-outline.%x"
+      output: "%f.%x"
       metric_units: true
       exclude_edge_layer: true
       polygon_mode: false

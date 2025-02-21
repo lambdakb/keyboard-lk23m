@@ -482,7 +482,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../output/lk23m-pcb.step",
       "svg": "",
       "vrml": ""
     },
