@@ -2,7 +2,7 @@ NAME	:= LK23M
 GITROOT	:= $(shell git rev-parse --show-toplevel)
 KIBOT	:= $(GITROOT)/.kibot/bin/kibot
 
-default: clean export
+default: clean pcb case step
 
 test:
 	$(info + [$(NAME)] $@)
@@ -12,29 +12,32 @@ export: pcb case-fr4
 
 pcb:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/pcb.kibot.yaml -b ./pcb/lk23m-pcb.kicad_pcb
+	mkdir -p ./output/pcb
+	$(KIBOT) -c .kibot/pcb.kibot.yaml  -b ./pcb/lk23m-pcb.kicad_pcb
 
-case-fr4: case-fr4-silk case-fr4-enig case-fr4-dxf
+case: case-fr4 case-dxf
 
-case-fr4-silk:
+case-fr4:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/silk -b ./case/fr4/silk/lk23m-plate-silk.kicad_pcb
-	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/silk -b ./case/fr4/silk/lk23m-bottom-silk.kicad_pcb
+	mkdir -p ./output/case/fr4
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/fr4 -b ./case/fr4/lk23m-plate.kicad_pcb
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/fr4 -b ./case/fr4/lk23m-bottom.kicad_pcb
 
-case-fr4-enig:
+case-dxf:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/enig -b ./case/fr4/enig/lk23m-plate-enig.kicad_pcb
-	$(KIBOT) -c .kibot/case.kibot.yaml -d output/case/enig -b ./case/fr4/enig/lk23m-bottom-enig.kicad_pcb
+	mkdir -p ./output/case/dxf
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/lk23m-plate.kicad_pcb case_dxf
+	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/lk23m-bottom.kicad_pcb case_dxf
 
-case-fr4-dxf:
+step:
 	$(info + [$(NAME)] $@)
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/silk/lk23m-plate-silk.kicad_pcb case_dxf
-	mv output/case/dxf/lk23m-plate-silk-outline.dxf output/case/dxf/lk23m-plate.dxf
-	$(KIBOT) -c .kibot/case.kibot.yaml -b ./case/fr4/silk/lk23m-bottom-silk.kicad_pcb case_dxf
-	mv output/case/dxf/lk23m-bottom-silk-outline.dxf output/case/dxf/lk23m-bottom.dxf
+	mkdir -p ./output/step
+	$(KIBOT) -c .kibot/pcb.kibot.yaml  -d output -b ./pcb/lk23m-pcb.kicad_pcb 3d_step
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output -b ./case/fr4/lk23m-plate.kicad_pcb 3d_step
+	$(KIBOT) -c .kibot/case.kibot.yaml -d output -b ./case/fr4/lk23m-bottom.kicad_pcb 3d_step
 
 clean:
 	$(info + [$(NAME)] $@)
-	rm -rf output/
+	rm -rf output/pcb output/case output/step
 
-.PHONY: default test export pcb case-fr4 case-fr4-silk case-fr4-enig case-fr4-dxf clean
+.PHONY: default test export pcb case-fr4 case-fr4 case-dxf clean

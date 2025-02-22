@@ -1,3 +1,4 @@
+# FR4 case exports
 kibot:
   version: 1
 
@@ -12,6 +13,7 @@ import:
   # - file: configs/elecrow.kibot.yaml
   #   outputs: ['elecrow_gbr', 'elecrow_drl', 'elecrow_zip']
   - file: configs/pcbdraw.kibot.yaml
+  - file: configs/3dexport.kibot.yaml
 
 outputs:
   - name: case_dxf
@@ -22,7 +24,7 @@ outputs:
       - Edge.Cuts
     run_by_default: false
     options:
-      output: "%f-outline.%x"
+      output: "%f.%x"
       metric_units: true
       exclude_edge_layer: true
       polygon_mode: false

@@ -1,3 +1,4 @@
+# PCB exports
 kibot:
   version: 1
 
@@ -12,6 +13,7 @@ import:
   #   outputs: all
   # - file: configs/elecrow.kibot.yaml
   #   outputs: all
-  - configs/pcbdraw.kibot.yaml
-  - configs/ibom.kibot.yaml
-  - configs/pdfsch.kibot.yaml
+  - file: configs/pcbdraw.kibot.yaml
+  - file: configs/ibom.kibot.yaml
+  - file: configs/pdfsch.kibot.yaml
+  - file: configs/3dexport.kibot.yaml

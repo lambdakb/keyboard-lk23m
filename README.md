@@ -38,7 +38,7 @@ This PCB can also be built as a wireless keyboard using a nice!nano microcontrol
 
 ## PCB
 
-|             Front             |            Back             |
+|          PCB (Front)          |         PCB (Back)          |
 | :---------------------------: | :-------------------------: |
 | [![PCB Front]][PCB Front PNG] | [![PCB Back]][PCB Back PNG] |
 
@@ -97,22 +97,22 @@ Serial numbers are based on the current date using the `YYMM01` format for its i
 
 ### FR4
 
-|         Plate (Silk)          |          Bottom (Silk)          |          Plate (ENIG)           |           Bottom (ENIG)           |
-| :---------------------------: | :-----------------------------: | :-----------------------------: | :-------------------------------: |
-| [![FR4 Plate]][FR4 Plate PNG] | [![FR4 Bottom]][FR4 Bottom PNG] | [![ENIG Plate]][ENIG Plate PNG] | [![ENIG Bottom]][ENIG Bottom PNG] |
+|          Plate (Top)          |           Plate (Bottom)            |      Bottom Case (Top)      |         Bottom Case (Top)         |
+| :---------------------------: | :---------------------------------: | :-------------------------: | :-------------------------------: |
+| [![Plate Top]][Plate Top PNG] | [![Plate Bottom]][Plate Bottom PNG] | [![Case Top]][Case Top PNG] | [![Case Bottom]][Case Bottom PNG] |
 
-[FR4 Plate]: output/case/silk/img/lk23m-plate-silk-top.svg
-[FR4 Plate PNG]: output/case/silk/img/lk23m-plate-silk-top.png
-[FR4 Bottom]: output/case/silk/img/lk23m-bottom-silk-bottom.svg
-[FR4 Bottom PNG]: output/case/silk/img/lk23m-bottom-silk-bottom.png
-[ENIG Plate]: output/case/enig/img/lk23m-plate-enig-top.svg
-[ENIG Plate PNG]: output/case/enig/img/lk23m-plate-enig-top.png
-[ENIG Bottom]: output/case/enig/img/lk23m-bottom-enig-bottom.svg
-[ENIG Bottom PNG]: output/case/enig/img/lk23m-bottom-enig-bottom.png
+[Plate Top]: output/case/fr4/img/lk23m-plate-top.svg
+[Plate Top PNG]: output/case/fr4/img/lk23m-plate-top.png
+[Plate Bottom]: output/case/fr4/img/lk23m-plate-bottom.svg
+[Plate Bottom PNG]: output/case/fr4/img/lk23m-plate-bottom.png
+[Case Top]: output/case/fr4/img/lk23m-bottom-top.svg
+[Case Top PNG]: output/case/fr4/img/lk23m-bottom-top.png
+[Case Bottom]: output/case/fr4/img/lk23m-bottom-bottom.svg
+[Case Bottom PNG]: output/case/fr4/img/lk23m-bottom-bottom.png
 
-The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate. It is available in two variations: [`silk`](case/fr4/silk/) and [`enig`](case/fr4/enig/). The only difference between the two is how the decorative pattern is shown, the `silk` variant sets it up as part of the silkscreen while the `enig` variant shows it as solder mask.
+The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate.
 
-The `enig` version is only suitable when using an immersion based surface finish such as "ENIG" and shouldn't be ordered with any "HASL" surface finish, use the `silk` variant instead. Otherwise, use the same parameters present in [PCB Order](./README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself. You can find their respective fabrication files in [`output/case/silk/fabrication/jlcpcb`](output/case/silk/fabrication/jlcpcb/) and [`output/case/enig/fabrication/jlcpcb`](output/case/enig/fabrication/jlcpcb/).
+Use the same parameters present in [PCB Order](./README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself. You can find the fabrication files in [`output/case/fr4/fabrication/jlcpcb`](output/case/fr4/fabrication/jlcpcb/).
 
 If you prefer to fabricate them by any other mean (such as laser cut acrylic), you can download their board outlines as `DXF` in [`output/case/dxf`](output/case/dxf).
 
@@ -169,7 +169,15 @@ If you prefer to fabricate them by any other mean (such as laser cut acrylic), y
 
 ## Firmware
 
-Firmware has been built using the [`vial` fork](https://github.com/vial-kb/vial-qmk) of [QMK](https://qmk.fm).
+The pre-build firmware available in this repository are compiled using [Vial](https://get.vial.today/) (a fork of [QMK](https://qmk.fm) allowing customization via a GUI).
+
+As per the original license of both Vial and QMK, the firmware itself is licensed under the GPLv3 license and its source code is available at [`vial-qmk/keyboards/lambdakb/lk23m`](https://github.com/lambdakb/vial-qmk/tree/lambdakb/keyboards/lambdakb/lk23m).
+
+### Default Vial Keymap
+
+| Layer 1           | Layer 2                        | Layer 3                         | Layer 4                         |
+| ----------------- | ------------------------------ | ------------------------------- | ------------------------------- |
+| ![Layout Default] | ![Layout Disable Left Encoder] | ![Layout Disable Right Encoder] | ![Layout OLED Screen in Center] |
 
 ### Vial Layout Options
 
