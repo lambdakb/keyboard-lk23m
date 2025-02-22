@@ -1,3 +1,4 @@
+# FR4 case exports
 kibot:
   version: 1
 
@@ -11,8 +12,8 @@ import:
   #   outputs: ['pcbway_gbr', 'pcbway_drl', 'pcbway_zip']
   # - file: configs/elecrow.kibot.yaml
   #   outputs: ['elecrow_gbr', 'elecrow_drl', 'elecrow_zip']
-  - configs/pcbdraw.kibot.yaml
-  - configs/3dexport.kibot.yaml
+  - file: configs/pcbdraw.kibot.yaml
+  - file: configs/3dexport.kibot.yaml
 
 outputs:
   - name: case_dxf
