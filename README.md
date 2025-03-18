@@ -3,7 +3,7 @@
 [![Documentation](https://img.shields.io/badge/Documentation-Latest-brightgreen?style=for-the-badge&logo=docusaurus&logoColor=white)](https://lambdakb.dev/devices/lk23m)
 [![GitHub Release](https://img.shields.io/github/v/release/lambdakb/keyboard-lk23m?label=Release&style=for-the-badge&logo=github&logoColor=white)](https://github.com/lambdakb/keyboard-lk23m/releases/latest)
 [![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=for-the-badge&logo=creativecommons&logoColor=white)](/LICENSE.md)
-[![KiCad](https://img.shields.io/badge/KiCad-v8-orange?style=for-the-badge&logo=kicad&logoColor=white&logoSize=auto)](https://www.kicad.org/)
+[![KiCad](https://img.shields.io/badge/KiCad-v9-orange?style=for-the-badge&logo=kicad&logoColor=white&logoSize=auto)](https://www.kicad.org/)
 
 ## Layout
 
