@@ -8,5 +8,9 @@ outputs:
     type: pdf_sch_print
     dir: schematics
     options:
-      color_theme: dracula
+      color_theme: '@SCH_COLOR_THEME@'
       background_color: false
+
+...
+definitions:
+  SCH_COLOR_THEME: dracula
