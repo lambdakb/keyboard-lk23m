@@ -2,13 +2,13 @@ NAME	:= LK23M
 GITROOT	:= $(shell git rev-parse --show-toplevel)
 KIBOT	:= $(GITROOT)/.kibot/bin/kibot
 
-default: clean pcb case step
+default: pcb case step
 
 test:
 	$(info + [$(NAME)] $@)
 	$(KIBOT) -c .kibot/test.kibot.yaml -b ./pcb/lk23m-pcb.kicad_pcb
 
-export: pcb case-fr4
+export: pcb case
 
 pcb:
 	$(info + [$(NAME)] $@)
@@ -40,4 +40,4 @@ clean:
 	$(info + [$(NAME)] $@)
 	rm -rf output/pcb output/case output/step
 
-.PHONY: default test export pcb case-fr4 case-fr4 case-dxf clean
+.PHONY: default test export pcb case case-fr4 case-dxf clean
