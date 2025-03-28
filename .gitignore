@@ -72,8 +72,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-### Project Specific
-
-/output/test/
-/output/**/fabrication/*/gerbers/
