@@ -2,7 +2,7 @@ NAME	:= LK23M
 GITROOT	:= $(shell git rev-parse --show-toplevel)
 KIBOT	:= $(GITROOT)/.kibot/bin/kibot
 
-default: pcb case step
+default: export step
 
 test:
 	$(info + [$(NAME)] $@)

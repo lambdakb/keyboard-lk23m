@@ -44,5 +44,5 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "SW20","SW_Push","SW_MX_HotSwap_THT_sqSilk",40.1600,-143.3475,0.0000,bottom
 "SW21","SW_Push","SW_MX_HotSwap_THT_sqSilk",59.2100,-143.3475,0.0000,bottom
 "SW22","SW_Push","SW_MX_HotSwap_THT_sqSilk",78.2600,-143.3475,0.0000,bottom
-"SW23","SW_Push","SW_MX_2U_HotSwap_THT_sqSilk",100.4850,-129.3775,90.0000,bottom
+"SW23","SW_Push","SW_MX_HotSwap_THT_sqSilk",100.4850,-129.3775,90.0000,bottom
 "SW25","SW_SPST","SW_SPDT_PCM12",55.5000,-32.1300,180.0000,bottom

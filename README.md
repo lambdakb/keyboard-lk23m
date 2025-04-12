@@ -110,7 +110,7 @@ Serial numbers are based on the current date using the `YYMM01` format for its i
 [Case Bottom]: output/case/fr4/img/lk23m-bottom-bottom.svg
 [Case Bottom PNG]: output/case/fr4/img/lk23m-bottom-bottom.png
 
-The FR4 case has also been designed in [KiCad EDA 8.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate.
+The FR4 case has also been designed in [KiCad EDA 9.0](https://www.kicad.org/) and consist of two PCBs, one for the switch plate and one for the bottom plate.
 
 Use the same parameters present in [PCB Order](./README.md#pcb-order) to order the plate and bottom PCB. For JLCPCB orders, you can select "Remove Mark" for the "Mark on PCB" option as there is no need to serialize the case itself. You can find the fabrication files in [`output/case/fr4/fabrication/jlcpcb`](output/case/fr4/fabrication/jlcpcb/).
 
