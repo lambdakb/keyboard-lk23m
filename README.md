@@ -175,9 +175,12 @@ As per the original license of both Vial and QMK, the firmware itself is license
 
 ### Default Vial Keymap
 
-| Layer 1           | Layer 2                        | Layer 3                         | Layer 4                         |
-| ----------------- | ------------------------------ | ------------------------------- | ------------------------------- |
-| ![Layout Default] | ![Layout Disable Left Encoder] | ![Layout Disable Right Encoder] | ![Layout OLED Screen in Center] |
+| Layer 0           | Layer 1                        |
+| ----------------- | ------------------------------ |
+| ![Keymap Layer 0] | ![Keymap Layer 1] |
+
+[Keymap Layer 0]: assets/vial-default-layer0.png
+[Keymap Layer 1]: assets/vial-default-layer1.png
 
 ### Vial Layout Options
 
